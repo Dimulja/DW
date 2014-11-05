@@ -6,7 +6,7 @@ public class Stau {
 	
 	public String Datum, Uhrzeit,Autobahn,Richtung_Start,Richtung_Ende,Streckenabschnitt_Start,
 	Streckenabschnitt_Ende,Art,	Laenge, Beschreibung;
-	 private String Eigenschaft="";
+
 	
 	
 	public Stau(String Datum,String Uhrzeit,String Autobahn,String Richtung_Start,String Richtung_Ende,
@@ -24,6 +24,8 @@ public class Stau {
 		this.Art=Art;
 		this.Laenge=Laenge;
 	//	this.Beschreibung=Beschreibung;
+		
+		
 	}
 	
 	public String getEigenschaft(String s){
