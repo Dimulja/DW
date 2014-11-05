@@ -33,8 +33,8 @@ public class Stau {
 	}
 
 	
-	public void setEigenschaft(String Eigenschaft, String Wert){
-		this.Eigenschaft=Eigenschaft;
-		
-	}
+//	public void setEigenschaft(String Eigenschaft, String Wert){
+//		this.Eigenschaft=Eigenschaft;
+//		
+//	}
 }
