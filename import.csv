@@ -1,0 +1,1003 @@
+Datum;Uhrzeit;Autobahn;Richtung_Start;Richtung_Ende;Streckenabschnitt_Start;Streckenabschnitt_Ende;Art;Laenge;Beschreibung
+2011-01-03;01:48:00;A46;Wuppertal;Düsseldorf;Dreieck Düsseldorf-Süd;Düsseldorf-Eller;Gefahr;NULL;Gefahr durch ein großes Metallteil auf der Fahrbahn.
+2011-01-03;01:54:00;A46;Wuppertal;Düsseldorf;Dreieck Düsseldorf-Süd;Düsseldorf-Eller;Gefahr;NULL;Gefahr durch ein großes Metallteil auf der Fahrbahn.
+2011-01-03;04:00:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Bocklemünd;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der rechten Fahrspur
+2011-01-03;04:06:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Bocklemünd;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der rechten Fahrspur
+2011-01-03;04:12:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Bocklemünd;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der rechten Fahrspur
+2011-01-03;04:18:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Bocklemünd;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der rechten Fahrspur
+2011-01-03;05:06:00;A2;Hannover;Dortmund;Gütersloh;Rheda-Wiedenbrück;Gefahr;NULL;Gefahr durch Metallteile auf dem linken Fahrstreifen.
+2011-01-03;06:12:00;A2;Dortmund;Hannover;Kamener Kreuz;Bönen;Gefahr;NULL;Gefahr durch Metallteile auf der Fahrbahn.
+2011-01-03;06:18:00;A2;Dortmund;Hannover;Kamener Kreuz;Bönen;Gefahr;NULL;Gefahr durch Metallteile auf der Fahrbahn.
+2011-01-03;06:24:00;A2;Dortmund;Hannover;Kamener Kreuz;Bönen;Gefahr;NULL;Gefahr durch Metallteile auf der Fahrbahn.
+2011-01-03;06:30:00;A2;Dortmund;Hannover;Kamener Kreuz;Bönen;Gefahr;NULL;Gefahr durch Metallteile auf der Fahrbahn.
+2011-01-03;06:54:00;A1;Euskirchen;Köln;Kreuz Bliesheim;Erftstadt;Stau;2;Unfall
+2011-01-03;06:54:00;A59;Dinslaken;Duisburg;Kreuz Duisburg;Duisburg-Duissern;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug
+2011-01-03;07:00:00;A1;Euskirchen;Köln;Kreuz Bliesheim;Erftstadt;Stau;2;Unfall
+2011-01-03;07:00:00;A59;Dinslaken;Duisburg;Kreuz Duisburg;Duisburg-Duissern;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug
+2011-01-03;07:00:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:00:00;A3;Arnheim;Oberhausen;Hamminkeln;Wesel;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug auf der Fahrbahn.
+2011-01-03;07:06:00;A1;Euskirchen;Köln;Kreuz Bliesheim;Erftstadt;Stau;2;Unfall
+2011-01-03;07:06:00;A59;Dinslaken;Duisburg;Kreuz Duisburg;Duisburg-Duissern;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug
+2011-01-03;07:06:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:06:00;A3;Arnheim;Oberhausen;Hamminkeln;Wesel;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug auf der Fahrbahn.
+2011-01-03;07:12:00;A1;Euskirchen;Köln;Kreuz Bliesheim;Erftstadt;Stau;2;Unfall
+2011-01-03;07:12:00;A59;Dinslaken;Duisburg;Kreuz Duisburg;Duisburg-Duissern;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug
+2011-01-03;07:12:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:12:00;A3;Arnheim;Oberhausen;Hamminkeln;Wesel;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug auf der Fahrbahn.
+2011-01-03;07:18:00;A1;Euskirchen;Köln;Kreuz Bliesheim;Erftstadt;Stau;2;Unfall
+2011-01-03;07:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;07:18:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:18:00;A3;Arnheim;Oberhausen;Hamminkeln;Wesel;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug auf der Fahrbahn.
+2011-01-03;07:24:00;A1;Euskirchen;Köln;Kreuz Bliesheim;Erftstadt;Stau;2;Unfall
+2011-01-03;07:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;07:24:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:24:00;A3;Arnheim;Oberhausen;Hamminkeln;Wesel;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug auf der Fahrbahn.
+2011-01-03;07:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-03;07:30:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;07:36:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;07:42:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:48:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;07:48:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;07:54:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;07:54:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;dort gesperrt.
+2011-01-03;08:00:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:00:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;3;dort gesperrt.
+2011-01-03;08:06:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:06:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;3;dort gesperrt.
+2011-01-03;08:12:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:12:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;3;dort gesperrt.
+2011-01-03;08:18:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:18:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;3;dort gesperrt.
+2011-01-03;08:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:36:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:36:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-03;08:42:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:42:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-03;08:42:00;A3;Oberhausen;Köln;Oberhausen-Lirich;Kreuz Kaiserberg;Gefahr;NULL;Gefahr durch einen Kanister auf der linken Fahrspur.
+2011-01-03;08:48:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:48:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-03;08:48:00;A3;Oberhausen;Köln;Oberhausen-Lirich;Kreuz Kaiserberg;Gefahr;NULL;Gefahr durch einen Kanister auf der linken Fahrspur.
+2011-01-03;08:54:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;08:54:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-03;08:54:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle auf der linken Fahrspur.
+2011-01-03;09:00:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;09:00:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-03;09:00:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle auf der linken Fahrspur.
+2011-01-03;09:06:00;A1;Dortmund;Köln;Kreuz Wuppertal-Nord;Wuppertal-Langerfeld;Stau;2;Baustelle
+2011-01-03;09:06:00;A46;Wuppertal;Düsseldorf;Kreuz Wuppertal-Nord;Wuppertal-Wichlinghausen;Stau;2;Baustelle
+2011-01-03;09:06:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;09:06:00;A43;Recklinghausen;Münster;Haltern;Lavesum;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem rechten Fahrstreifen.
+2011-01-03;09:06:00;A3;Köln;Frankfurt;Bad Honnef/Linz;Neustadt (Wied);Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-03;09:06:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle auf der linken Fahrspur.
+2011-01-03;09:12:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;2;Unfall
+2011-01-03;09:12:00;A46;Wuppertal;Düsseldorf;Wuppertal-Oberbarmen;Wuppertal-Wichlinghausen;Stau;1;Baustelle
+2011-01-03;09:12:00;A1;Dortmund;Köln;Kreuz Wuppertal-Nord;Wuppertal-Langerfeld;Stau;2;Baustelle
+2011-01-03;09:12:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;09:12:00;A43;Recklinghausen;Münster;Haltern;Lavesum;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem rechten Fahrstreifen.
+2011-01-03;09:18:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;2;Unfall
+2011-01-03;09:18:00;A1;Dortmund;Köln;Kreuz Wuppertal-Nord;Wuppertal-Langerfeld;Stau;2;Baustelle
+2011-01-03;09:18:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;09:18:00;A46;Düsseldorf;Wuppertal;Wuppertal-Wichlinghausen;Kreuz Wuppertal-Nord;Stau;1;Straßenglätte
+2011-01-03;09:24:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;2;Unfall
+2011-01-03;09:24:00;A1;Dortmund;Köln;Kreuz Wuppertal-Nord;Wuppertal-Langerfeld;Stau;2;Baustelle
+2011-01-03;09:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;09:24:00;A46;Düsseldorf;Wuppertal;Wuppertal-Wichlinghausen;Kreuz Wuppertal-Nord;Stau;1;Straßenglätte
+2011-01-03;09:30:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;1;Unfall
+2011-01-03;09:30:00;A1;Euskirchen;Köln;Köln-Bocklemünd;Kreuz Köln-Nord;Stau;1;Baustelle
+2011-01-03;09:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;09:30:00;A46;Düsseldorf;Wuppertal;Wuppertal-Wichlinghausen;Kreuz Wuppertal-Nord;Stau;1;Straßenglätte
+2011-01-03;09:36:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;1;Unfall
+2011-01-03;09:36:00;A1;Euskirchen;Köln;Köln-Bocklemünd;Kreuz Köln-Nord;stockender Verkehr;2;Baustelle
+2011-01-03;09:36:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;09:42:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;1;Unfall
+2011-01-03;09:42:00;A1;Euskirchen;Köln;Köln-Bocklemünd;Kreuz Köln-Nord;stockender Verkehr;2;Baustelle
+2011-01-03;09:42:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;09:48:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;1;Unfall
+2011-01-03;09:48:00;A1;Euskirchen;Köln;Köln-Bocklemünd;Kreuz Köln-Nord;stockender Verkehr;2;Baustelle
+2011-01-03;09:48:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;09:48:00;A44;Dortmund;Kassel;Kreuz Dortmund/Unna;Unna-Ost;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der rechten Fahrspur
+2011-01-03;09:54:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;1;Unfall
+2011-01-03;09:54:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-03;09:54:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;09:54:00;A44;Dortmund;Kassel;Kreuz Dortmund/Unna;Unna-Ost;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der rechten Fahrspur
+2011-01-03;10:00:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;1;Unfall
+2011-01-03;10:00:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-03;10:00:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:00:00;A44;Dortmund;Kassel;Kreuz Dortmund/Unna;Unna-Ost;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der rechten Fahrspur
+2011-01-03;10:06:00;A44;Kassel;Dortmund;Lichtenau;Kreuz Wünnenberg-Haaren;Stau;1;Unfall
+2011-01-03;10:06:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-03;10:06:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:06:00;A44;Dortmund;Kassel;Kreuz Dortmund/Unna;Unna-Ost;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der rechten Fahrspur
+2011-01-03;10:12:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-03;10:12:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:18:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-03;10:18:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:24:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-03;10:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:30:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;stockender Verkehr;7;Baustelle
+2011-01-03;10:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:36:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;stockender Verkehr;7;Baustelle
+2011-01-03;10:36:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:42:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;stockender Verkehr;7;Baustelle
+2011-01-03;10:42:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:48:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;stockender Verkehr;7;Baustelle
+2011-01-03;10:48:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;10:54:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;10:54:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:00:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:00:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:06:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:06:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:12:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:12:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:12:00;A61;Venlo;Mönchengladbach;Viersen;Mackenstein;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-03;11:18:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:18:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:18:00;A61;Venlo;Mönchengladbach;Viersen;Mackenstein;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-03;11:24:00;A2;Dortmund;Hannover;Kamener Kreuz;Bönen;Stau;1;Baustelle
+2011-01-03;11:24:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:24:00;A61;Venlo;Mönchengladbach;Viersen;Mackenstein;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-03;11:30:00;A2;Dortmund;Hannover;Kamener Kreuz;Bönen;Stau;1;Baustelle
+2011-01-03;11:30:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:30:00;A61;Venlo;Mönchengladbach;Viersen;Mackenstein;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-03;11:36:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-03;11:36:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:36:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:42:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-03;11:42:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:42:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:48:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-03;11:48:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:48:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:54:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-03;11:54:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;11:54:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;11:54:00;A4;Köln;Olpe;Köln-Klettenberg;Köln-Eifeltor;Gefahr;NULL;Gefahr durch Werkzeug auf der Fahrbahn.
+2011-01-03;12:00:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-03;12:00:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;12:00:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;12:00:00;A4;Köln;Olpe;Köln-Klettenberg;Köln-Eifeltor;Gefahr;NULL;Gefahr durch Werkzeug auf der Fahrbahn.
+2011-01-03;12:06:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-03;12:06:00;A1;Euskirchen;Köln;Kreuz Köln-West;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;12:06:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;12:06:00;A4;Köln;Olpe;Köln-Klettenberg;Köln-Eifeltor;Gefahr;NULL;Gefahr durch Werkzeug auf der Fahrbahn.
+2011-01-03;12:12:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-03;12:12:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-03;12:12:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;12:18:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-03;12:18:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-03;12:18:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;12:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;8;Unfall
+2011-01-03;12:24:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;12:24:00;A31;Gronau;Bottrop;Gladbeck;Dreieck Bottrop;Gefahr;NULL;Gefahr durch eine Schaufel auf der rechten Fahrspur.
+2011-01-03;12:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;8;Unfall
+2011-01-03;12:30:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;12:30:00;A31;Gronau;Bottrop;Lembeck;Schermbeck;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;12:30:00;A31;Gronau;Bottrop;Gladbeck;Dreieck Bottrop;Gefahr;NULL;Gefahr durch eine Schaufel auf der rechten Fahrspur.
+2011-01-03;12:36:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;8;Unfall
+2011-01-03;12:36:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;12:36:00;A2;Dortmund;Hannover;Rheda-Wiedenbrück;Gütersloh;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem linken Fahrstreifen.
+2011-01-03;12:36:00;A31;Gronau;Bottrop;Lembeck;Schermbeck;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;12:36:00;A31;Gronau;Bottrop;Gladbeck;Dreieck Bottrop;Gefahr;NULL;Gefahr durch eine Schaufel auf der rechten Fahrspur.
+2011-01-03;12:42:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;8;Unfall
+2011-01-03;12:42:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;12:42:00;A2;Dortmund;Hannover;Rheda-Wiedenbrück;Gütersloh;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem linken Fahrstreifen.
+2011-01-03;12:42:00;A31;Gronau;Bottrop;Gladbeck;Dreieck Bottrop;Gefahr;NULL;Gefahr durch eine Schaufel auf der rechten Fahrspur.
+2011-01-03;12:48:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;12:48:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;8;Dort ist nur ein Fahrstreifen frei.
+2011-01-03;12:54:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;12:54:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;8;Dort ist nur ein Fahrstreifen frei.
+2011-01-03;13:00:00;A3;Oberhausen;Köln;Dreieck Langenfeld;Köln-Dellbrück;stockender Verkehr;10;Baustelle
+2011-01-03;13:00:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;13:00:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug auf der rechten Fahrspur.
+2011-01-03;13:06:00;A3;Oberhausen;Köln;Dreieck Langenfeld;Köln-Dellbrück;stockender Verkehr;10;Baustelle
+2011-01-03;13:06:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;7;Baustelle
+2011-01-03;13:06:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug auf der rechten Fahrspur.
+2011-01-03;13:12:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;13:12:00;A3;Oberhausen;Köln;Dreieck Langenfeld;Köln-Dellbrück;stockender Verkehr;10;Baustelle
+2011-01-03;13:12:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;13:18:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;13:18:00;A3;Oberhausen;Köln;Dreieck Langenfeld;Köln-Dellbrück;stockender Verkehr;10;Baustelle
+2011-01-03;13:18:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;13:18:00;A44;Dortmund;Kassel;Lichtenau;Marsberg;Gefahr;NULL;Gefahr durch eine Radkappe auf dem linken Fahrstreifen
+2011-01-03;13:24:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;13:24:00;A3;Oberhausen;Köln;Dreieck Langenfeld;Köln-Dellbrück;stockender Verkehr;10;Baustelle
+2011-01-03;13:24:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;13:24:00;A44;Dortmund;Kassel;Lichtenau;Marsberg;Gefahr;NULL;Gefahr durch eine Radkappe auf dem linken Fahrstreifen
+2011-01-03;13:30:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;13:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;13:30:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;13:30:00;A44;Dortmund;Kassel;Lichtenau;Marsberg;Gefahr;NULL;Gefahr durch eine Radkappe auf dem linken Fahrstreifen
+2011-01-03;13:30:00;A2;Hannover;Dortmund;Exter;Herford-Ost;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem linken Fahrstreifen
+2011-01-03;13:36:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;13:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;13:36:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;13:36:00;A44;Dortmund;Kassel;Lichtenau;Marsberg;Gefahr;NULL;Gefahr durch eine Radkappe auf dem linken Fahrstreifen
+2011-01-03;13:36:00;A2;Hannover;Dortmund;Exter;Herford-Ost;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem linken Fahrstreifen
+2011-01-03;13:42:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;13:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;13:42:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;13:48:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Bocklemünd;Stau;2;Baustelle
+2011-01-03;13:48:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;13:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;13:48:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;13:54:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;13:54:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;13:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;13:54:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;14:00:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;14:00:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:00:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;14:06:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;14:06:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:06:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;14:12:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;14:12:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:12:00;A2;Dortmund;Hannover;Bielefeld-Sennestadt;Bielefeld-Zentrum;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;14:12:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;14:18:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;14:18:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord
+2011-01-03;14:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:18:00;A2;Dortmund;Hannover;Bielefeld-Sennestadt;Bielefeld-Zentrum;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;14:18:00;A2;Hannover;Dortmund;Kreuz Bad Oeynhausen;Exter;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn
+2011-01-03;14:18:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;14:24:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;14:24:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:24:00;A2;Dortmund;Hannover;Bielefeld-Sennestadt;Bielefeld-Zentrum;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;14:24:00;A2;Hannover;Dortmund;Kreuz Bad Oeynhausen;Exter;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn
+2011-01-03;14:24:00;A46;Wuppertal;Düsseldorf;Haan-Ost;Haan-West;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-03;14:30:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;14:30:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:36:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;14:36:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:36:00;A2;Hannover;Dortmund;Bad Eilsen;Veltheim;Gefahr;NULL;Gefahr durch einen LKW Reifen auf der Fahrbahn.
+2011-01-03;14:42:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;14:42:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:42:00;A2;Hannover;Dortmund;Bad Eilsen;Veltheim;Gefahr;NULL;Gefahr durch einen LKW Reifen auf der Fahrbahn.
+2011-01-03;14:48:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;14:48:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;14:48:00;A2;Hannover;Dortmund;Bad Eilsen;Veltheim;Gefahr;NULL;Gefahr durch einen LKW Reifen auf der Fahrbahn.
+2011-01-03;14:54:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;14:54:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;14:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;15:00:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;15:00:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;15:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;9;Baustelle
+2011-01-03;15:00:00;A535;Velbert;Wuppertal;Wülfrath;Wuppertal-Dornap;Gefahr;NULL;Gefahr durch einen Holzbalken auf der Fahrbahn.
+2011-01-03;15:06:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;15:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;6;Baustelle
+2011-01-03;15:06:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;15:06:00;A535;Velbert;Wuppertal;Wülfrath;Wuppertal-Dornap;Gefahr;NULL;Gefahr durch einen Holzbalken auf der Fahrbahn.
+2011-01-03;15:12:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;15:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;15:12:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;15:12:00;A535;Velbert;Wuppertal;Wülfrath;Wuppertal-Dornap;Gefahr;NULL;Gefahr durch einen Holzbalken auf der Fahrbahn.
+2011-01-03;15:18:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;15:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;15:18:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;15:24:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;15:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;15:24:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;15:30:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;15:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;15:30:00;A1;Euskirchen;Köln;Gleuel;Kreuz Köln-Nord;Stau;8;Baustelle
+2011-01-03;15:36:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-03;15:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;15:36:00;A1;Euskirchen;Köln;Frechen;Kreuz Köln-Nord;Stau;6;Baustelle
+2011-01-03;15:42:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;15:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;15:42:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;Stau;6;Baustelle
+2011-01-03;15:48:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;15:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;15:48:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;Stau;6;Baustelle
+2011-01-03;15:54:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;15:54:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;15:54:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;Stau;6;Baustelle
+2011-01-03;16:00:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:00:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:00:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;16:06:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:06:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:06:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;16:12:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:12:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:12:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;16:18:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:18:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:18:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;16:24:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:24:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:24:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;16:30:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:30:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:30:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;16:36:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:36:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:36:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;16:42:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:42:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:42:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;16:48:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:48:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:48:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;16:54:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;16:54:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;16:54:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;17:00:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;17:00:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;17:00:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;17:06:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-03;17:06:00;A1;Euskirchen;Köln;Kreuz Köln-West;Köln-Bocklemünd;stockender Verkehr;3;Baustelle
+2011-01-03;17:06:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;17:12:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;17:12:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;17:12:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;2;Baustelle
+2011-01-03;17:12:00;A46;Düsseldorf;Wuppertal;Wuppertal-Elberfeld;Wuppertal-Barmen;stockender Verkehr;2;Baustelle
+2011-01-03;17:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;stockender Verkehr;7;Baustelle
+2011-01-03;17:18:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;17:18:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;17:18:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;2;Baustelle
+2011-01-03;17:18:00;A46;Düsseldorf;Wuppertal;Wuppertal-Elberfeld;Wuppertal-Barmen;stockender Verkehr;2;Baustelle
+2011-01-03;17:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;stockender Verkehr;7;Baustelle
+2011-01-03;17:24:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;17:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Baustelle
+2011-01-03;17:24:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;17:24:00;A46;Düsseldorf;Wuppertal;Wuppertal-Varresbeck;Wuppertal-Elberfeld;Stau;2;Baustelle
+2011-01-03;17:24:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;2;Baustelle
+2011-01-03;17:30:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;17:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Baustelle
+2011-01-03;17:30:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;17:30:00;A46;Düsseldorf;Wuppertal;Wuppertal-Varresbeck;Wuppertal-Elberfeld;Stau;2;Baustelle
+2011-01-03;17:30:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;2;Baustelle
+2011-01-03;17:30:00;A31;Bottrop;Lingen (Ems);Gronau/Ochtrup;Ochtrup-Nord;Gefahr;NULL;Gefahr durch durch Gegenstände auf der Fahrbahn
+2011-01-03;17:36:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;17:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Baustelle
+2011-01-03;17:36:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;17:36:00;A46;Düsseldorf;Wuppertal;Wuppertal-Varresbeck;Wuppertal-Elberfeld;Stau;2;Baustelle
+2011-01-03;17:36:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;2;Baustelle
+2011-01-03;17:36:00;A31;Bottrop;Lingen (Ems);Gronau/Ochtrup;Ochtrup-Nord;Gefahr;NULL;Gefahr durch durch Gegenstände auf der Fahrbahn
+2011-01-03;17:42:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;17:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Baustelle
+2011-01-03;17:42:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;17:42:00;A46;Düsseldorf;Wuppertal;Wuppertal-Varresbeck;Wuppertal-Elberfeld;Stau;2;Baustelle
+2011-01-03;17:42:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;2;Baustelle
+2011-01-03;17:42:00;A31;Bottrop;Lingen (Ems);Gronau/Ochtrup;Ochtrup-Nord;Gefahr;NULL;Gefahr durch durch Gegenstände auf der Fahrbahn
+2011-01-03;17:48:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;17:48:00;A46;Düsseldorf;Wuppertal;Wuppertal-Katernberg;Wuppertal-Elberfeld;Stau;1;Baustelle
+2011-01-03;17:48:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;17:48:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;17:48:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;stockender Verkehr;2;Baustelle
+2011-01-03;17:54:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;17:54:00;A46;Düsseldorf;Wuppertal;Wuppertal-Katernberg;Wuppertal-Elberfeld;Stau;1;Baustelle
+2011-01-03;17:54:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;17:54:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;17:54:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;stockender Verkehr;2;Baustelle
+2011-01-03;18:00:00;A52;Marl;Gelsenkirchen;Gelsenkirchen-Scholven;Anschluss B224;Stau;2;Unfall
+2011-01-03;18:00:00;A46;Düsseldorf;Wuppertal;Wuppertal-Katernberg;Wuppertal-Elberfeld;Stau;1;Baustelle
+2011-01-03;18:00:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Mülheim;stockender Verkehr;4;Baustelle
+2011-01-03;18:00:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:00:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;stockender Verkehr;2;Baustelle
+2011-01-03;18:06:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:06:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;18:12:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:12:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;18:18:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;1;Baustelle
+2011-01-03;18:18:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:18:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;3;Baustelle
+2011-01-03;18:24:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;1;Baustelle
+2011-01-03;18:24:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:24:00;A3;Oberhausen;Frankfurt;Leverkusen-Zentrum;Kreuz Köln-Ost;Stau;8;Baustelle
+2011-01-03;18:30:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;1;Baustelle
+2011-01-03;18:30:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;18:36:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;1;Baustelle
+2011-01-03;18:36:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;18:42:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;1;Baustelle
+2011-01-03;18:42:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;18:42:00;A2;Hannover;Dortmund;Beckum;Hamm-Uentrop;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle linker Fahrstreifen blockiert.
+2011-01-03;18:48:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;1;Baustelle
+2011-01-03;18:48:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;18:48:00;A2;Hannover;Dortmund;Beckum;Hamm-Uentrop;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle linker Fahrstreifen blockiert.
+2011-01-03;18:54:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;1;Baustelle
+2011-01-03;18:54:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;2;Baustelle
+2011-01-03;18:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;18:54:00;A2;Hannover;Dortmund;Beckum;Hamm-Uentrop;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle linker Fahrstreifen blockiert.
+2011-01-03;19:00:00;A40;Essen;Dortmund;Essen-Kray;Gelsenkirchen-Süd;Stau;1;Baustelle
+2011-01-03;19:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;19:00:00;A45;Gießen;Hagen;Haiger/Burbach;Wilnsdorf;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:00:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle auf dem linken Fahrstreifen
+2011-01-03;19:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-03;19:06:00;A45;Gießen;Hagen;Haiger/Burbach;Wilnsdorf;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:06:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle auf dem linken Fahrstreifen
+2011-01-03;19:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;19:12:00;A52;Düsseldorf;Essen;Ratingen;Tiefenbroich;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:12:00;A40;Duisburg;Venlo;Wachtendonk;Wankum;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:12:00;A45;Gießen;Hagen;Haiger/Burbach;Wilnsdorf;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:12:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle auf dem linken Fahrstreifen
+2011-01-03;19:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;19:18:00;A52;Düsseldorf;Essen;Ratingen;Tiefenbroich;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:18:00;A40;Duisburg;Venlo;Wachtendonk;Wankum;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;19:24:00;A52;Düsseldorf;Essen;Ratingen;Tiefenbroich;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:24:00;A43;Münster;Wuppertal;Recklinghausen/Herten;Kreuz Recklinghausen;Gefahr;NULL;Gefahr durch unbeleuchtetes Fahrzeug auf der Fahrbahn
+2011-01-03;19:24:00;A45;Hagen;Gießen;Lüdenscheid-Süd;Meinerzhagen;Gefahr;NULL;Gefahr durch einen Kanister auf der Fahrbahn.
+2011-01-03;19:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-03;19:30:00;A52;Düsseldorf;Essen;Ratingen;Tiefenbroich;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-03;19:30:00;A43;Münster;Wuppertal;Recklinghausen/Herten;Kreuz Recklinghausen;Gefahr;NULL;Gefahr durch unbeleuchtetes Fahrzeug auf der Fahrbahn
+2011-01-03;19:30:00;A45;Hagen;Gießen;Lüdenscheid-Süd;Meinerzhagen;Gefahr;NULL;Gefahr durch einen Kanister auf der Fahrbahn.
+2011-01-03;19:36:00;A45;Gießen;Hagen;Haiger/Burbach;Wilnsdorf;Stau;2;Unfall
+2011-01-03;19:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Unfall
+2011-01-03;19:36:00;A43;Münster;Wuppertal;Recklinghausen/Herten;Kreuz Recklinghausen;Gefahr;NULL;Gefahr durch unbeleuchtetes Fahrzeug auf der Fahrbahn
+2011-01-03;19:42:00;A45;Gießen;Hagen;Haiger/Burbach;Wilnsdorf;Stau;2;Unfall
+2011-01-03;19:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Unfall
+2011-01-03;19:48:00;A45;Gießen;Hagen;Haiger/Burbach;Wilnsdorf;Stau;2;Unfall
+2011-01-03;19:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Unfall
+2011-01-03;19:54:00;A45;Gießen;Hagen;Haiger/Burbach;Wilnsdorf;Stau;2;Unfall
+2011-01-03;19:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Unfall
+2011-01-03;20:00:00;A45;Gießen;Hagen;Haiger/Burbach;Wilnsdorf;Stau;2;Unfall
+2011-01-03;20:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;6;Unfall
+2011-01-03;20:00:00;A52;Roermond;Düsseldorf;Kreuz Mönchengladbach;Mönchengladbach-Nord;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn
+2011-01-03;20:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Unfall
+2011-01-03;20:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Unfall
+2011-01-03;20:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Baustelle
+2011-01-03;20:18:00;A3;Frankfurt;Köln;Siebengebirge/Königswinter;Kreuz Bonn/Siegburg;Gefahr;NULL;Gefahr durch einen Auspuff auf der Fahrbahn.
+2011-01-03;20:18:00;A4;Olpe;Köln;Köln-Poll;Kreuz Köln-Süd;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn
+2011-01-03;20:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Baustelle
+2011-01-03;20:24:00;A3;Frankfurt;Köln;Siebengebirge/Königswinter;Kreuz Bonn/Siegburg;Gefahr;NULL;Gefahr durch einen Auspuff auf der Fahrbahn.
+2011-01-03;20:24:00;A4;Olpe;Köln;Köln-Poll;Kreuz Köln-Süd;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn
+2011-01-03;20:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;4;Baustelle
+2011-01-03;20:30:00;A3;Frankfurt;Köln;Siebengebirge/Königswinter;Kreuz Bonn/Siegburg;Gefahr;NULL;Gefahr durch einen Auspuff auf der Fahrbahn.
+2011-01-03;20:36:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Dellbrück;stockender Verkehr;3;Baustelle
+2011-01-03;20:42:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Dellbrück;stockender Verkehr;3;Baustelle
+2011-01-03;20:54:00;A40;Venlo;Essen;Duisburg-Homberg;Duisburg-Häfen;Gefahr;NULL;Gefahr durch eine Stoßstange auf der Fahrbahn
+2011-01-03;21:00:00;A40;Venlo;Essen;Duisburg-Homberg;Duisburg-Häfen;Gefahr;NULL;Gefahr durch eine Stoßstange auf der Fahrbahn
+2011-01-03;21:12:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug.
+2011-01-03;21:18:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug.
+2011-01-03;21:24:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug.
+2011-01-03;21:30:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch ein brennendes Fahrzeug.
+2011-01-03;22:42:00;A2;Hannover;Dortmund;Bönen;Kamener Kreuz;Gefahr;NULL;Gefahr durch Reifenteile
+2011-01-03;22:48:00;A2;Hannover;Dortmund;Bönen;Kamener Kreuz;Gefahr;NULL;Gefahr durch Reifenteile
+2011-01-03;22:54:00;A2;Hannover;Dortmund;Bönen;Kamener Kreuz;Gefahr;NULL;Gefahr durch Reifenteile
+2011-01-03;23:00:00;A2;Hannover;Dortmund;Bönen;Kamener Kreuz;Gefahr;NULL;Gefahr durch Reifenteile
+2011-01-03;23:06:00;A2;Hannover;Dortmund;Bönen;Kamener Kreuz;Gefahr;NULL;Gefahr durch Reifenteile
+2011-01-04;00:06:00;A4;Köln;Olpe;Rastplatz Erlenhof;Engelskirchen;Gefahr;NULL;Gefahr durch Reifenteile
+2011-01-04;00:12:00;A4;Köln;Olpe;Rastplatz Erlenhof;Engelskirchen;Gefahr;NULL;Gefahr durch Reifenteile
+2011-01-04;02:30:00;A2;Dortmund;Hannover;Bönen;Hamm;Gefahr;NULL;Gefahr durch  Gegenstände auf der Fahrbahn
+2011-01-04;02:36:00;A2;Dortmund;Hannover;Bönen;Hamm;Gefahr;NULL;Gefahr durch  Gegenstände auf der Fahrbahn
+2011-01-04;02:42:00;A2;Dortmund;Hannover;Bönen;Hamm;Gefahr;NULL;Gefahr durch  Gegenstände auf der Fahrbahn
+2011-01-04;02:48:00;A2;Dortmund;Hannover;Bönen;Hamm;Gefahr;NULL;Gefahr durch  Gegenstände auf der Fahrbahn
+2011-01-04;04:48:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;04:48:00;A59;Bonn;Köln;Dreieck Sankt Augustin-West;Troisdorf;Gefahr;NULL;Gefahr durch ein totes Tier auf der Fahrbahn.
+2011-01-04;04:54:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;04:54:00;A59;Bonn;Köln;Dreieck Sankt Augustin-West;Troisdorf;Gefahr;NULL;Gefahr durch ein totes Tier auf der Fahrbahn.
+2011-01-04;05:00:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;05:00:00;A59;Bonn;Köln;Dreieck Sankt Augustin-West;Troisdorf;Gefahr;NULL;Gefahr durch ein totes Tier auf der Fahrbahn.
+2011-01-04;05:06:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;05:06:00;A59;Bonn;Köln;Dreieck Sankt Augustin-West;Troisdorf;Gefahr;NULL;Gefahr durch ein totes Tier auf der Fahrbahn.
+2011-01-04;05:12:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;05:12:00;A59;Bonn;Köln;Dreieck Sankt Augustin-West;Troisdorf;Gefahr;NULL;Gefahr durch ein totes Tier auf der Fahrbahn.
+2011-01-04;05:18:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;05:18:00;A59;Bonn;Köln;Dreieck Sankt Augustin-West;Troisdorf;Gefahr;NULL;Gefahr durch ein totes Tier auf der Fahrbahn.
+2011-01-04;05:48:00;A44;Kassel;Dortmund;Kreuz Werl;Unna-Ost;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn.
+2011-01-04;05:54:00;A44;Kassel;Dortmund;Kreuz Werl;Unna-Ost;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn.
+2011-01-04;06:00:00;A44;Kassel;Dortmund;Kreuz Werl;Unna-Ost;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn.
+2011-01-04;06:06:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:12:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:18:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:24:00;A40;Duisburg;Essen;Essen-Huttrop;Dreieck Essen-Ost;Stau;2;Unfall
+2011-01-04;06:24:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:30:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:30:00;A40;Duisburg;Essen;Essen-Huttrop;Essen-Frillendorf;Stau;3;Unfall
+2011-01-04;06:36:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:36:00;A40;Duisburg;Essen;Essen-Huttrop;Essen-Frillendorf;Stau;3;Unfall
+2011-01-04;06:42:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:42:00;A40;Duisburg;Essen;Essen-Huttrop;Essen-Frillendorf;Stau;3;Unfall
+2011-01-04;06:42:00;A40;Dortmund;Duisburg;Essen-Kray;Dreieck Essen-Ost;Stau;2;Baustelle
+2011-01-04;06:48:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:48:00;A40;Duisburg;Essen;Essen-Huttrop;Essen-Frillendorf;Stau;3;Unfall
+2011-01-04;06:48:00;A40;Dortmund;Duisburg;Essen-Kray;Dreieck Essen-Ost;Stau;2;Baustelle
+2011-01-04;06:54:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;06:54:00;A40;Duisburg;Essen;Essen-Huttrop;Essen-Frillendorf;Stau;3;Unfall
+2011-01-04;06:54:00;A40;Dortmund;Duisburg;Essen-Kray;Dreieck Essen-Ost;Stau;2;Baustelle
+2011-01-04;07:00:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;07:00:00;A40;Duisburg;Essen;Essen-Huttrop;Essen-Frillendorf;Stau;3;Unfall
+2011-01-04;07:00:00;A40;Dortmund;Duisburg;Essen-Kray;Dreieck Essen-Ost;Stau;2;Baustelle
+2011-01-04;07:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Leverkusen-Zentrum;Stau;2;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-04;07:06:00;A40;Duisburg;Essen;Essen-Zentrum;Essen-Frillendorf;Stau;4;Unfall
+2011-01-04;07:06:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;07:06:00;A3;Frankfurt;Köln;Kreuz Bonn/Siegburg;Lohmar;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;07:06:00;A40;Dortmund;Duisburg;Essen-Kray;Essen-Frillendorf;Stau;2;Baustelle
+2011-01-04;07:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;5;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-04;07:12:00;A40;Duisburg;Essen;Essen-Zentrum;Essen-Frillendorf;Stau;4;Unfall
+2011-01-04;07:12:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;07:12:00;A3;Frankfurt;Köln;Kreuz Bonn/Siegburg;Lohmar;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;07:12:00;A40;Dortmund;Duisburg;Essen-Kray;Essen-Frillendorf;Stau;2;Baustelle
+2011-01-04;07:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;5;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-04;07:18:00;A40;Duisburg;Essen;Essen-Zentrum;Essen-Frillendorf;Stau;4;Unfall
+2011-01-04;07:18:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Unfall
+2011-01-04;07:18:00;A3;Frankfurt;Köln;Kreuz Bonn/Siegburg;Lohmar;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;07:18:00;A40;Dortmund;Duisburg;Essen-Kray;Essen-Frillendorf;Stau;2;Baustelle
+2011-01-04;07:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;5;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-04;07:24:00;A40;Duisburg;Essen;Essen-Zentrum;Essen-Frillendorf;Stau;4;Unfall
+2011-01-04;07:24:00;A3;Frankfurt;Köln;Kreuz Bonn/Siegburg;Lohmar;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;07:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;5;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-04;07:30:00;A40;Duisburg;Essen;Essen-Zentrum;Essen-Frillendorf;Stau;4;Unfall
+2011-01-04;07:30:00;A3;Frankfurt;Köln;Kreuz Bonn/Siegburg;Lohmar;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;07:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;5;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-04;07:36:00;A40;Duisburg;Essen;Essen-Zentrum;Essen-Frillendorf;Stau;4;Unfall
+2011-01-04;07:36:00;A1;Dortmund;Köln;Kreuz Leverkusen-West;Köln-Niehl;Stau;1;Baustelle
+2011-01-04;07:36:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;07:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;5;Dort steht ein defektes Fahrzeug auf der Fahrbahn.
+2011-01-04;07:42:00;A40;Duisburg;Essen;Mülheim-Heimaterde;Dreieck Essen-Ost;Stau;4;Unfall
+2011-01-04;07:42:00;A1;Dortmund;Köln;Kreuz Leverkusen-West;Köln-Niehl;Stau;1;Baustelle
+2011-01-04;07:42:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;07:42:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;07:48:00;A40;Duisburg;Essen;Mülheim-Heimaterde;Dreieck Essen-Ost;Stau;4;Unfall
+2011-01-04;07:48:00;A1;Dortmund;Köln;Kreuz Leverkusen-West;Köln-Niehl;Stau;1;Baustelle
+2011-01-04;07:48:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;07:48:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;07:54:00;A1;Dortmund;Köln;Kreuz Leverkusen-West;Köln-Niehl;Stau;1;Baustelle
+2011-01-04;07:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;07:54:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;08:00:00;A1;Dortmund;Köln;Kreuz Leverkusen-West;Köln-Niehl;Stau;1;Baustelle
+2011-01-04;08:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;08:00:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;08:06:00;A1;Dortmund;Köln;Kreuz Leverkusen-West;Köln-Niehl;Stau;1;Baustelle
+2011-01-04;08:06:00;A40;Duisburg;Dortmund;Dreieck Essen-Ost;Bochum-Dückerweg;stockender Verkehr;7;Baustelle
+2011-01-04;08:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;08:06:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;08:06:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;08:12:00;A1;Dortmund;Köln;Kreuz Leverkusen-West;Köln-Niehl;Stau;1;Baustelle
+2011-01-04;08:12:00;A40;Duisburg;Dortmund;Dreieck Essen-Ost;Bochum-Dückerweg;stockender Verkehr;7;Baustelle
+2011-01-04;08:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;08:12:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;08:12:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;08:18:00;A1;Dortmund;Köln;Kreuz Leverkusen-West;Köln-Niehl;Stau;1;Baustelle
+2011-01-04;08:18:00;A40;Duisburg;Dortmund;Dreieck Essen-Ost;Bochum-Dückerweg;stockender Verkehr;7;Baustelle
+2011-01-04;08:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;08:18:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;08:18:00;A3;Oberhausen;Arnheim;Oberhausen-Holten;Kreuz Oberhausen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;08:24:00;A3;Köln;Arnheim;Kreuz Kaiserberg;Oberhausen-Holten;Stau;6;Unfall
+2011-01-04;08:24:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Dückerweg;stockender Verkehr;6;Baustelle
+2011-01-04;08:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;08:24:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;08:30:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;Stau;3;Baustelle
+2011-01-04;08:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;08:30:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;08:36:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;Stau;3;Baustelle
+2011-01-04;08:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;7;Baustelle
+2011-01-04;08:36:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;08:42:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;Stau;3;Baustelle
+2011-01-04;08:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;7;Baustelle
+2011-01-04;08:42:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;08:48:00;A42;Kamp-Lintfort;Dortmund;Kreuz Oberhausen-West;Oberhausen-Zentrum;stockender Verkehr;3;Baustelle
+2011-01-04;08:48:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;Stau;3;Baustelle
+2011-01-04;08:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;7;Baustelle
+2011-01-04;08:48:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;08:54:00;A42;Kamp-Lintfort;Dortmund;Kreuz Oberhausen-West;Oberhausen-Zentrum;stockender Verkehr;3;Baustelle
+2011-01-04;08:54:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;Stau;3;Baustelle
+2011-01-04;08:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;stockender Verkehr;7;Baustelle
+2011-01-04;08:54:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:00:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;stockender Verkehr;3;Baustelle
+2011-01-04;09:00:00;A42;Kamp-Lintfort;Dortmund;Duisburg-Neumühl;Oberhausen-Buschhausen;stockender Verkehr;2;Baustelle
+2011-01-04;09:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-04;09:00:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:06:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;stockender Verkehr;3;Baustelle
+2011-01-04;09:06:00;A42;Kamp-Lintfort;Dortmund;Duisburg-Neumühl;Oberhausen-Buschhausen;stockender Verkehr;2;Baustelle
+2011-01-04;09:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-04;09:06:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:12:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;stockender Verkehr;3;Baustelle
+2011-01-04;09:12:00;A42;Kamp-Lintfort;Dortmund;Duisburg-Neumühl;Oberhausen-Buschhausen;stockender Verkehr;2;Baustelle
+2011-01-04;09:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-04;09:12:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:18:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;stockender Verkehr;3;Baustelle
+2011-01-04;09:18:00;A42;Kamp-Lintfort;Dortmund;Duisburg-Neumühl;Oberhausen-Buschhausen;stockender Verkehr;2;Baustelle
+2011-01-04;09:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-04;09:18:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:30:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-04;09:30:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;stockender Verkehr;3;Baustelle
+2011-01-04;09:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-04;09:30:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:36:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-04;09:36:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;stockender Verkehr;3;Baustelle
+2011-01-04;09:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-04;09:36:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;2;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:42:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-04;09:42:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;stockender Verkehr;3;Baustelle
+2011-01-04;09:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-04;09:42:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:48:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-04;09:48:00;A40;Duisburg;Dortmund;Essen-Frillendorf;Bochum-Wattenscheid-West;stockender Verkehr;3;Baustelle
+2011-01-04;09:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Mülheim;Stau;4;Baustelle
+2011-01-04;09:48:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;09:54:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-04;09:54:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;5;Baustelle
+2011-01-04;09:54:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:00:00;A45;Gießen;Hagen;Lüdenscheid-Süd;Meinerzhagen;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;10:00:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-04;10:00:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;5;Baustelle
+2011-01-04;10:00:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:06:00;A45;Gießen;Hagen;Lüdenscheid-Süd;Meinerzhagen;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;10:06:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;1;Baustelle
+2011-01-04;10:06:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;5;Baustelle
+2011-01-04;10:06:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:06:00;A59;Düsseldorf;Köln;Leverkusen-Rheindorf;Kreuz Leverkusen-West;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-04;10:12:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;2;Baustelle
+2011-01-04;10:12:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;5;Baustelle
+2011-01-04;10:12:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:12:00;A59;Düsseldorf;Köln;Leverkusen-Rheindorf;Kreuz Leverkusen-West;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-04;10:18:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;2;Baustelle
+2011-01-04;10:18:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;5;Baustelle
+2011-01-04;10:18:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:18:00;A59;Düsseldorf;Köln;Leverkusen-Rheindorf;Kreuz Leverkusen-West;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-04;10:24:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;2;Baustelle
+2011-01-04;10:24:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;5;Baustelle
+2011-01-04;10:24:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:24:00;A59;Düsseldorf;Köln;Leverkusen-Rheindorf;Kreuz Leverkusen-West;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-04;10:30:00;A1;Euskirchen;Köln;Köln-Bocklemünd;Kreuz Köln-Nord;Stau;2;Baustelle
+2011-01-04;10:30:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;5;Baustelle
+2011-01-04;10:30:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:36:00;A1;Euskirchen;Köln;Köln-Bocklemünd;Kreuz Köln-Nord;Stau;2;Baustelle
+2011-01-04;10:36:00;A3;Oberhausen;Köln;Leverkusen-Zentrum;Köln-Mülheim;Stau;5;Baustelle
+2011-01-04;10:36:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:42:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;10:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;10:42:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:48:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;1;Baustelle
+2011-01-04;10:48:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;10:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;10:48:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;10:54:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;1;Baustelle
+2011-01-04;10:54:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;10:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;10:54:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;11:00:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;1;Baustelle
+2011-01-04;11:00:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:00:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;11:06:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:06:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;11:12:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;1;Baustelle
+2011-01-04;11:12:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:12:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;11:18:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;1;Baustelle
+2011-01-04;11:18:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:18:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist nur ein Fahrstreifen frei.
+2011-01-04;11:24:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;3;Baustelle
+2011-01-04;11:24:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:24:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;3;Dort ist der rechte Fahrstreifen blockiert.
+2011-01-04;11:24:00;A44;Düsseldorf;Velbert;Düsseldorf-Flughafen;Düsseldorf-Stockum;Gefahr;NULL;Gefahr durch Fahrradfahrer auf der Fahrbahn
+2011-01-04;11:30:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Baustelle
+2011-01-04;11:30:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;3;Baustelle
+2011-01-04;11:30:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:30:00;A59;Duisburg;Dinslaken;Duisburg-Marxloh;Duisburg-Fahrn;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem rechten Fahrstreifen.
+2011-01-04;11:30:00;A44;Düsseldorf;Velbert;Düsseldorf-Flughafen;Düsseldorf-Stockum;Gefahr;NULL;Gefahr durch Fahrradfahrer auf der Fahrbahn
+2011-01-04;11:36:00;A1;Köln;Dortmund;Kreuz Leverkusen;Burscheid;Stau;1;Baustelle
+2011-01-04;11:36:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;3;Baustelle
+2011-01-04;11:36:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:36:00;A59;Duisburg;Dinslaken;Duisburg-Marxloh;Duisburg-Fahrn;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem rechten Fahrstreifen.
+2011-01-04;11:36:00;A44;Düsseldorf;Velbert;Düsseldorf-Flughafen;Düsseldorf-Stockum;Gefahr;NULL;Gefahr durch Fahrradfahrer auf der Fahrbahn
+2011-01-04;11:42:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;11:42:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:42:00;A59;Duisburg;Dinslaken;Duisburg-Marxloh;Duisburg-Fahrn;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem rechten Fahrstreifen.
+2011-01-04;11:42:00;A44;Düsseldorf;Velbert;Düsseldorf-Flughafen;Düsseldorf-Stockum;Gefahr;NULL;Gefahr durch Fahrradfahrer auf der Fahrbahn
+2011-01-04;11:48:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;11:48:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;11:54:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;11:54:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;11:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;12:00:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:00:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;12:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;12:06:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:06:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;12:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;12:06:00;A1;Köln;Dortmund;Wuppertal-Ronsdorf;Wuppertal-Langerfeld;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem rechten Fahrstreifen.
+2011-01-04;12:12:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:12:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;12:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;12:12:00;A1;Köln;Dortmund;Wuppertal-Ronsdorf;Wuppertal-Langerfeld;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf dem rechten Fahrstreifen.
+2011-01-04;12:18:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:18:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;12:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;12:24:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:24:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;12:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;12:30:00;A42;Kamp-Lintfort;Dortmund;Oberhausen-Zentrum;Oberhausen Neue Mitte;Stau;2;Unfall
+2011-01-04;12:30:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:30:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;12:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;6;Baustelle
+2011-01-04;12:30:00;A1;Dortmund;Köln;Remscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Lkw-Reifen auf der linken Fahrspur.
+2011-01-04;12:36:00;A42;Kamp-Lintfort;Dortmund;Oberhausen-Zentrum;Oberhausen Neue Mitte;Stau;2;Unfall
+2011-01-04;12:36:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:36:00;A1;Euskirchen;Köln;Köln-Lövenich;Kreuz Köln-Nord;Stau;4;Baustelle
+2011-01-04;12:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;6;Baustelle
+2011-01-04;12:36:00;A1;Dortmund;Köln;Remscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Lkw-Reifen auf der linken Fahrspur.
+2011-01-04;12:42:00;A42;Kamp-Lintfort;Dortmund;Oberhausen-Zentrum;Oberhausen Neue Mitte;Stau;2;Unfall
+2011-01-04;12:42:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:42:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;4;Baustelle
+2011-01-04;12:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;6;Baustelle
+2011-01-04;12:42:00;A1;Dortmund;Köln;Remscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Lkw-Reifen auf der linken Fahrspur.
+2011-01-04;12:48:00;A42;Kamp-Lintfort;Dortmund;Oberhausen-Zentrum;Oberhausen Neue Mitte;Stau;2;Unfall
+2011-01-04;12:48:00;A565;Meckenheim;Bonn;Bonn-Hardtberg;Bonn-Tannenbusch;Stau;5;Baustelle
+2011-01-04;12:48:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;4;Baustelle
+2011-01-04;12:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;6;Baustelle
+2011-01-04;12:48:00;A1;Dortmund;Köln;Remscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Lkw-Reifen auf der linken Fahrspur.
+2011-01-04;12:54:00;A42;Kamp-Lintfort;Dortmund;Oberhausen-Zentrum;Oberhausen Neue Mitte;Stau;2;Unfall
+2011-01-04;12:54:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;12:54:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;3;Baustelle
+2011-01-04;12:54:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;12:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;12:54:00;A1;Dortmund;Köln;Remscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Lkw-Reifen auf der linken Fahrspur.
+2011-01-04;13:00:00;A42;Kamp-Lintfort;Dortmund;Oberhausen-Zentrum;Oberhausen Neue Mitte;Stau;2;Unfall
+2011-01-04;13:00:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:00:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;3;Baustelle
+2011-01-04;13:00:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:00:00;A1;Dortmund;Köln;Remscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Lkw-Reifen auf der linken Fahrspur.
+2011-01-04;13:06:00;A42;Kamp-Lintfort;Dortmund;Oberhausen-Zentrum;Oberhausen Neue Mitte;Stau;2;Unfall
+2011-01-04;13:06:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:06:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;3;Baustelle
+2011-01-04;13:06:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:06:00;A1;Dortmund;Köln;Remscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Lkw-Reifen auf der linken Fahrspur.
+2011-01-04;13:12:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:12:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;13:12:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:18:00;A42;Kamp-Lintfort;Dortmund;Oberhausen-Zentrum;Oberhausen Neue Mitte;Stau;2;Unfall
+2011-01-04;13:18:00;A1;Euskirchen;Köln
+2011-01-04;13:18:00;A565;Meckenheim;Bonn;Bonn-Lengsdorf;Bonn-Tannenbusch;Stau;3;Baustelle
+2011-01-04;13:18:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:24:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:24:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;13:24:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Kreuz Leverkusen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;13:24:00;A560;Hennef;Sankt Augustin;Hennef(Sieg)-West;Kreuz Bonn/Siegburg;Gefahr;NULL;Gefahr durch einen Auspuff auf der Fahrbahn.
+2011-01-04;13:30:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:30:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;13:30:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Kreuz Leverkusen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;13:30:00;A560;Hennef;Sankt Augustin;Hennef(Sieg)-West;Kreuz Bonn/Siegburg;Gefahr;NULL;Gefahr durch einen Auspuff auf der Fahrbahn.
+2011-01-04;13:36:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:36:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;13:36:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:36:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Kreuz Leverkusen;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;13:36:00;A560;Hennef;Sankt Augustin;Hennef(Sieg)-West;Kreuz Bonn/Siegburg;Gefahr;NULL;Gefahr durch einen Auspuff auf der Fahrbahn.
+2011-01-04;13:42:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:42:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;13:42:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:48:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:48:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;13:48:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;13:54:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;13:54:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;13:54:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;13:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:00:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:00:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-04;14:00:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:06:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:06:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-04;14:06:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:12:00;A1;Dortmund;Osnabrück;Kreuz Münster-Süd;Münster-Nord;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;14:12:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:12:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-04;14:12:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:18:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:18:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-04;14:18:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:18:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:24:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:24:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;3;Baustelle
+2011-01-04;14:24:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:24:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:30:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:30:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:30:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;2;Baustelle
+2011-01-04;14:30:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:36:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;14:36:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:36:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:36:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;2;Baustelle
+2011-01-04;14:36:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:42:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;14:42:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:42:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:42:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;2;Baustelle
+2011-01-04;14:42:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:48:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;14:48:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:48:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:48:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;2;Baustelle
+2011-01-04;14:48:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:48:00;A59;Bonn;Köln;Flughafen;Dreieck Köln-Porz;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;14:54:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;14:54:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;14:54:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;14:54:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;2;Baustelle
+2011-01-04;14:54:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;14:54:00;A59;Bonn;Köln;Flughafen;Dreieck Köln-Porz;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;15:00:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:00:00;A1;Euskirchen;Köln;Köln-Lövenich;Köln-Bocklemünd;Stau;1;Baustelle
+2011-01-04;15:00:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;15:00:00;A1;Köln;Euskirchen;Köln-Bocklemünd;Köln-Lövenich;stockender Verkehr;2;Baustelle
+2011-01-04;15:00:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;15:00:00;A59;Bonn;Köln;Flughafen;Dreieck Köln-Porz;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;15:06:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:06:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;15:06:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;15:06:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Bocklemünd;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der linken Fahrbahn.
+2011-01-04;15:12:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;2;Unfall
+2011-01-04;15:12:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;15:12:00;A3;Oberhausen;Köln;Kreuz Leverkusen;Köln-Dellbrück;Stau;7;Baustelle
+2011-01-04;15:12:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Bocklemünd;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der linken Fahrbahn.
+2011-01-04;15:18:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:18:00;A2;Hannover;Dortmund;Bönen;Kamener Kreuz;Stau;1;Baustelle
+2011-01-04;15:18:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;15:18:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;15:18:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Bocklemünd;Gefahr;NULL;Gefahr durch ein defektes Fahrzeug auf der linken Fahrbahn.
+2011-01-04;15:24:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:24:00;A2;Hannover;Dortmund;Bönen;Kamener Kreuz;Stau;1;Baustelle
+2011-01-04;15:24:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-04;15:24:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;15:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;15:24:00;A3;Oberhausen;Köln;Kreuz Hilden;Raststätte Ohligser Heide;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;15:24:00;A2;Dortmund;Hannover;Bielefeld-Sennestadt;Bielefeld-Zentrum;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-04;15:30:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:30:00;A2;Hannover;Dortmund;Bönen;Kamener Kreuz;Stau;1;Baustelle
+2011-01-04;15:30:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-04;15:30:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;15:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;15:30:00;A3;Oberhausen;Köln;Kreuz Hilden;Raststätte Ohligser Heide;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;15:30:00;A2;Dortmund;Hannover;Bielefeld-Sennestadt;Bielefeld-Zentrum;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-04;15:36:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:36:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-04;15:36:00;A565;Meckenheim;Bonn;Bonn-Poppelsdorf;Bonn-Tannenbusch;Stau;2;Baustelle
+2011-01-04;15:36:00;A2;Hannover;Dortmund;Hamm;Kamener Kreuz;stockender Verkehr;5;Baustelle
+2011-01-04;15:36:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;15:36:00;A3;Oberhausen;Köln;Kreuz Hilden;Raststätte Ohligser Heide;Gefahr;NULL;Gefahr durch eine ungesicherte Unfallstelle.
+2011-01-04;15:36:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn.
+2011-01-04;15:36:00;A2;Dortmund;Hannover;Bielefeld-Sennestadt;Bielefeld-Zentrum;Gefahr;NULL;Gefahr durch Reifenteile auf der Fahrbahn.
+2011-01-04;15:42:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:42:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;3;Baustelle
+2011-01-04;15:42:00;A2;Hannover;Dortmund;Hamm;Kamener Kreuz;stockender Verkehr;5;Baustelle
+2011-01-04;15:42:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;15:42:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn.
+2011-01-04;15:48:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:48:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;Stau;2;Baustelle
+2011-01-04;15:48:00;A2;Hannover;Dortmund;Hamm;Kamener Kreuz;stockender Verkehr;5;Baustelle
+2011-01-04;15:48:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;15:48:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn.
+2011-01-04;15:54:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;15:54:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;4;Baustelle
+2011-01-04;15:54:00;A2;Hannover;Dortmund;Hamm;Kamener Kreuz;stockender Verkehr;5;Baustelle
+2011-01-04;15:54:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;15:54:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn.
+2011-01-04;16:00:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;16:00:00;A1;Köln;Euskirchen;Kreuz Köln-Nord;Köln-Lövenich;stockender Verkehr;4;Baustelle
+2011-01-04;16:00:00;A2;Hannover;Dortmund;Hamm;Kamener Kreuz;stockender Verkehr;5;Baustelle
+2011-01-04;16:00:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:00:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;Gefahr;NULL;Gefahr durch Gegenstände auf der Fahrbahn.
+2011-01-04;16:00:00;A44;Dortmund;Kassel;Marsberg;Diemelstadt;Gefahr;NULL;Gefahr durch Fahrzeugteile auf der Fahrbahn.
+2011-01-04;16:06:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;Stau;3;Unfall
+2011-01-04;16:06:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;16:06:00;A2;Hannover;Dortmund;Hamm;Kamener Kreuz;stockender Verkehr;5;Baustelle
+2011-01-04;16:06:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;16:06:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:06:00;A44;Dortmund;Kassel;Marsberg;Diemelstadt;Gefahr;NULL;Gefahr durch Fahrzeugteile auf der Fahrbahn.
+2011-01-04;16:12:00;A1;Münster;Köln;Kreuz Dortmund/Unna;Schwerte;Stau;3;Unfall
+2011-01-04;16:12:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;stockender Verkehr;3;Unfall
+2011-01-04;16:12:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;stockender Verkehr;4;Baustelle
+2011-01-04;16:12:00;A2;Hannover;Dortmund;Hamm;Bönen;stockender Verkehr;6;Baustelle
+2011-01-04;16:12:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:18:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;stockender Verkehr;3;Unfall
+2011-01-04;16:18:00;A2;Hannover;Dortmund;Hamm;Bönen;stockender Verkehr;6;Baustelle
+2011-01-04;16:18:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;stockender Verkehr;6;Baustelle
+2011-01-04;16:18:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:24:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;stockender Verkehr;3;Unfall
+2011-01-04;16:24:00;A2;Hannover;Dortmund;Hamm;Bönen;stockender Verkehr;6;Baustelle
+2011-01-04;16:24:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;Stau;6;Baustelle
+2011-01-04;16:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:24:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen blockiert.
+2011-01-04;16:30:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;stockender Verkehr;3;Unfall
+2011-01-04;16:30:00;A2;Hannover;Dortmund;Hamm;Bönen;stockender Verkehr;6;Baustelle
+2011-01-04;16:30:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;Stau;6;Baustelle
+2011-01-04;16:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:30:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen blockiert.
+2011-01-04;16:36:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;stockender Verkehr;3;Unfall
+2011-01-04;16:36:00;A4;Aachen;Köln;Aachen-Zentrum;Kreuz Aachen;Stau;1;Baustelle
+2011-01-04;16:36:00;A2;Hannover;Dortmund;Hamm;Bönen;stockender Verkehr;6;Baustelle
+2011-01-04;16:36:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;Stau;6;Baustelle
+2011-01-04;16:36:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:36:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen blockiert.
+2011-01-04;16:36:00;A1;Dortmund;Köln;Burscheid;Kreuz Leverkusen;Gefahr;NULL;Gefahr durch ein Kunststoffteil auf der Fahrbahn.
+2011-01-04;16:42:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;stockender Verkehr;3;Unfall
+2011-01-04;16:42:00;A4;Aachen;Köln;Aachen-Zentrum;Kreuz Aachen;Stau;1;Baustelle
+2011-01-04;16:42:00;A2;Hannover;Dortmund;Hamm;Bönen;stockender Verkehr;6;Baustelle
+2011-01-04;16:42:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;Stau;6;Baustelle
+2011-01-04;16:42:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:42:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen blockiert.
+2011-01-04;16:42:00;A1;Dortmund;Köln;Burscheid;Kreuz Leverkusen;Gefahr;NULL;Gefahr durch ein Kunststoffteil auf der Fahrbahn.
+2011-01-04;16:48:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;stockender Verkehr;3;Unfall
+2011-01-04;16:48:00;A4;Aachen;Köln;Aachen-Zentrum;Kreuz Aachen;Stau;2;Baustelle
+2011-01-04;16:48:00;A2;Hannover;Dortmund;Hamm;Bönen;stockender Verkehr;6;Baustelle
+2011-01-04;16:48:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Bocklemünd;Stau;6;Baustelle
+2011-01-04;16:48:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:48:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-04;16:48:00;A1;Dortmund;Köln;Burscheid;Kreuz Leverkusen;Gefahr;NULL;Gefahr durch ein Kunststoffteil auf der Fahrbahn.
+2011-01-04;16:54:00;A1;Köln;Dortmund;Burscheid;Wermelskirchen;stockender Verkehr;3;Unfall
+2011-01-04;16:54:00;A4;Aachen;Köln;Aachen-Zentrum;Kreuz Aachen;Stau;2;Baustelle
+2011-01-04;16:54:00;A2;Hannover;Dortmund;Hamm;Bönen;stockender Verkehr;6;Baustelle
+2011-01-04;16:54:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Bocklemünd;Stau;6;Baustelle
+2011-01-04;16:54:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;16:54:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-04;16:54:00;A1;Dortmund;Köln;Burscheid;Kreuz Leverkusen;Gefahr;NULL;Gefahr durch ein Kunststoffteil auf der Fahrbahn.
+2011-01-04;17:00:00;A1;KÃ¶ln;Dortmund;Burscheid;Wermelskirchen;Stau;7;Unfall
+2011-01-04;17:00:00;A52;Mönchengladbach;Düsseldorf;Kreuz Neersen;Schiefbahn;Gefahr;NULL;Gefahr durch Personen auf der Fahrbahn
+2011-01-04;17:00:00;A2;Hannover;Dortmund;Hamm-Uentrop;Bönen;Stau;6;Baustelle
+2011-01-04;17:00:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Bocklemünd;Stau;6;Baustelle
+2011-01-04;17:00:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;17:00:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-04;17:06:00;A1;KÃ¶ln;Dortmund;Burscheid;Wermelskirchen;Stau;7;Unfall
+2011-01-04;17:06:00;A2;Hannover;Dortmund;Hamm-Uentrop;Bönen;Stau;6;Baustelle
+2011-01-04;17:06:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Bocklemünd;Stau;6;Baustelle
+2011-01-04;17:06:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;Stau;8;Baustelle
+2011-01-04;17:06:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-04;17:12:00;A1;KÃ¶ln;Dortmund;Burscheid;Wermelskirchen;Stau;7;Unfall
+2011-01-04;17:12:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-04;17:12:00;A2;Hannover;Dortmund;Hamm-Uentrop;Bönen;Stau;6;Baustelle
+2011-01-04;17:12:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Bocklemünd;Stau;6;Baustelle
+2011-01-04;17:12:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-04;17:18:00;A1;KÃ¶ln;Dortmund;Burscheid;Wermelskirchen;Stau;7;Unfall
+2011-01-04;17:18:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;17:18:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-04;17:18:00;A2;Hannover;Dortmund;Hamm-Uentrop;Bönen;Stau;8;Baustelle
+2011-01-04;17:18:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-04;17:24:00;A1;KÃ¶ln;Dortmund;Burscheid;Wermelskirchen;Stau;7;Unfall
+2011-01-04;17:24:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;17:24:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-04;17:24:00;A2;Hannover;Dortmund;Hamm-Uentrop;Bönen;Stau;8;Baustelle
+2011-01-04;17:24:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-04;17:30:00;A1;KÃ¶ln;Dortmund;Burscheid;Wermelskirchen;Stau;7;Unfall
+2011-01-04;17:30:00;A1;Dortmund;Euskirchen;Köln-Niehl;Köln-Lövenich;Stau;4;Baustelle
+2011-01-04;17:30:00;A3;Oberhausen;Köln;Leverkusen-Opladen;Köln-Dellbrück;stockender Verkehr;6;Baustelle
+2011-01-04;17:30:00;A2;Hannover;Dortmund;Hamm-Uentrop;Bönen;Stau;8;Baustelle
+2011-01-04;17:30:00;A1;Osnabrück;Dortmund;Münster-Nord;Kreuz Münster-Süd;Stau;2;Dort ist der rechte Fahrstreifen gesperrt.
+2011-01-04;17:30:00;A31;Gronau;Bottrop;Dorsten-West;Kirchhellen-Nord;Gefahr;NULL;Gefahr durch Fahrzeugteile auf der Fahrbahn.
+2011-01-04;17:36:00;A1;KÃ¶ln;Dortmund;Burscheid;Wermelskirchen;Stau;8;Unfall
+
+
