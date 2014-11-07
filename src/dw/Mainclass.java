@@ -48,7 +48,7 @@ public class Mainclass {
 		log("MainLIST has after adding CSV "+mainList.size()+" Elemente");
 		log("************");
 		//log(csvList);
-		//Sqlite3Parser slqp = new Sqlite3Parser();
+		Sqlite3Parser slqp = new Sqlite3Parser();
 		log("MainLIST has after adding SQL "+mainList.size()+" Elemente");
 		}
 		
