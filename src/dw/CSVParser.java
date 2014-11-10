@@ -23,6 +23,12 @@ public class CSVParser {
 		
 		s=s.replace("ÃƒÂ¶", "ö");
 		s=s.replace("Ã¶", "ö");
+		s=s.replace("Ã¼", "ü"); 
+		s=s.replace("Ã¤", "ä"); 
+		s=s.replace("ÃŸ", "ß");
+
+		
+		
 		
 		return s;
 	}
@@ -65,7 +71,7 @@ public void readCSV(String path){
 			
 			while ((line = br.readLine()) != null){
 				String[] data = line.split(cvsSplitBy);
-				System.out.println(data.length);
+				//System.out.println(data.length);
 					line=removeUmlaute(line);
 					log(line);
 					

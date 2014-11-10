@@ -4,6 +4,9 @@ package dw;
 import java.util.ArrayList;
 
 
+import java.util.HashSet;
+import java.util.Set;
+
 import dw.objects.staus.Stau;
 
 public class Mainclass {
@@ -48,6 +51,13 @@ public class Mainclass {
 		//log(csvList);
 		Sqlite3Parser slqp = new Sqlite3Parser();
 		log("MainLIST has after adding SQL "+mainList.size()+" Elemente");
+		
+		Set<Stau> set = new HashSet<Stau>(mainList);
+		
+		log(set.size()+" Einträge ohne duplicates");
+		
+		
+		
 		}
 		
 		

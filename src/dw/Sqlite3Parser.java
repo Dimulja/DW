@@ -19,8 +19,8 @@ public class Sqlite3Parser  {
 	      //Statement
 	      
 	      stmt = c.createStatement();
-	      String sql="Select z.datum, z.Uhrzeit, s.Autobahn, s.Richtung_Start, s.Richtung_Ende, s.Streckenabschnitt_Start, s.Streckenabschnitt_Ende, "
-	      		+ "d.Art, (Select case when d.Laenge_angegeben==1 then d.Laenge else \"-1\" end ) as Laenge from Zeitpunkt z "
+	      String sql="Select distinct z.datum, z.Uhrzeit, s.Autobahn, s.Richtung_Start, s.Richtung_Ende, s.Streckenabschnitt_Start, s.Streckenabschnitt_Ende, "
+	      		+ "d.Art, (Select case when d.Laenge_angegeben==1 then d.Laenge else \"NULL\" end ) as Laenge from Zeitpunkt z "
 	      				+ "JOIN Stau s on s.Zeitpunkt=z.id JOIN Daten d on d.id =s.Daten";
 	      
 	      ResultSet rs = stmt.executeQuery(sql);
