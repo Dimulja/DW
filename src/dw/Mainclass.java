@@ -4,14 +4,13 @@ package dw;
 import java.util.ArrayList;
 
 
-import java.util.HashSet;
-import java.util.Set;
-
 import dw.objects.staus.Stau;
 
 public class Mainclass {
 
-
+	public static int duplicateCounter=0;
+	public static int badDataCounter=0;
+	
 	
 	public static  ArrayList<Stau> mainList = new  ArrayList<Stau>();
 	//public static ArrayList<Stau> sqliteList;
@@ -47,18 +46,18 @@ public class Mainclass {
 		CSVParser csvp = new CSVParser(mainList);
 		csvp.readCSV("");
 		log("MainLIST has after adding CSV "+mainList.size()+" Elemente");
-		log("************");
+		//log("************");
 		//log(csvList);
 		Sqlite3Parser slqp = new Sqlite3Parser();
 		log("MainLIST has after adding SQL "+mainList.size()+" Elemente");
 		
-		Set<Stau> set = new HashSet<Stau>(mainList);
+		log("Anzahl der weggeworfenen unvollständigen Datensätze aus der CSV-Datei: "+badDataCounter);
+		log("Anzahl der eliminierten Duplikate aus beiden Dateien: "+duplicateCounter);
 		
-		log(set.size()+" Einträge ohne duplicates");
-		
-		
-		
-		}
+	
+	
+	
+	}//End of Main
 		
 		
 

@@ -34,10 +34,22 @@ public class Sqlite3Parser  {
 	          String Streckenabschnitt_Ende = rs.getString("Streckenabschnitt_Ende");
 	          String Art = rs.getString("Art");
 	          String Laenge = rs.getString("Laenge");
-	          Mainclass.log(Datum+" "+Uhrzeit+" "+Autobahn+" "+Richtung_Start+" "+Richtung_Ende+" "
-	          +Streckenabschnitt_Start+" "+Streckenabschnitt_Ende+" "+Art+" "+Laenge);
-	          Mainclass.mainList.add(new Stau(Datum,Uhrzeit,Autobahn,Richtung_Start,Richtung_Ende,
-	        		  Streckenabschnitt_Start,	Streckenabschnitt_Ende,Art,Laenge));
+	          
+	         
+	          
+	          Stau tempStau = new  Stau(Datum,Uhrzeit,Autobahn,Richtung_Start,Richtung_Ende,
+	        		  Streckenabschnitt_Start,	Streckenabschnitt_Ende,Art,Laenge);
+
+
+	          if(!Mainclass.mainList.contains(tempStau)){
+	        	  
+	          Mainclass.mainList.add(tempStau);
+//	          Mainclass.log(Datum+" "+Uhrzeit+" "+Autobahn+" "+Richtung_Start+" "+Richtung_Ende+" "
+//	    	          +Streckenabschnitt_Start+" "+Streckenabschnitt_Ende+" "+Art+" "+Laenge);
+	          
+	          }else{
+	        	  Mainclass.duplicateCounter++;
+	          }
 	       }
 	      rs.close();
 	      stmt.close();

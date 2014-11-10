@@ -4,8 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 
 import dw.objects.staus.Stau;
@@ -27,8 +25,6 @@ public class CSVParser {
 		s=s.replace("Ã¤", "ä"); 
 		s=s.replace("ÃŸ", "ß");
 
-		
-		
 		
 		return s;
 	}
@@ -55,11 +51,14 @@ public boolean isEmptyString(String s){
 	}
 	return false;
 }
-	
+/**
+ * 
+ * @param  path String to a CSV or null, then the standard path will be import.csv
+ * 
+ */
 public void readCSV(String path){
 		String line= "";
 		String cvsSplitBy = ";";
-		//ArrayList<Stau> aListResult = new ArrayList<Stau>();
 		if (path == null || path.isEmpty()){
 			path="import.csv";
 			
@@ -67,28 +66,41 @@ public void readCSV(String path){
 		
 		try {
 			BufferedReader br= new BufferedReader(new FileReader(path));
-		;
+		
+			//Was used for debugging
 			
+//			Stau tempStauTest = new Stau("2011-01-04","17:36:00","A1","Köln","Dortmund"
+//					,"Burscheid","Wermelskirchen","Stau","8");
+//			mainList.add(tempStauTest);
+		
+		
 			while ((line = br.readLine()) != null){
+				line=removeUmlaute(line);
 				String[] data = line.split(cvsSplitBy);
 				//System.out.println(data.length);
-					line=removeUmlaute(line);
-					log(line);
 					
-					if(data.length <10){
-//					String[] dataNew = new String[10];
-//						for (int i=0; i<data.length; i++){
-//							dataNew[i]=data[i];
-//						}	
-//						if(!isEmptyString(data[0])){
-//							mainList.add(new Stau(dataNew[0],dataNew[1],dataNew[2],dataNew[3],dataNew[4],
-//								dataNew[5],	dataNew[6],dataNew[7],dataNew[8]));	
-//							}
+					//log(line);
+					
+					if(!(data.length <10)){
+						Stau tempStau = new  Stau(data[0],data[1],data[2],data[3],data[4],
+								data[5], data[6],data[7],data[8]);
+						if(!(mainList.contains(tempStau))){
+						
+						mainList.add(tempStau);
+						
 						}else{
-							mainList.add(new Stau(data[0],data[1],data[2],data[3],data[4],
-								data[5], data[6],data[7],data[8]));
+							Mainclass.duplicateCounter++;
+						}
+						
+						
+						
+					
+					}else{
+						Mainclass.badDataCounter++;
 					}
-			//	System.out.println(data[0]);
+			
+					
+					//	System.out.println(data[0]);
 				
 //				}
 				//log("");
@@ -96,13 +108,13 @@ public void readCSV(String path){
 			}
 			br.close();
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
-		//return aListResult;
+		
 		
 	}
 }

@@ -32,9 +32,41 @@ public class Stau {
 		return s;
 	}
 
+	@Override
+	public boolean equals(Object o){
+		
+		
+		if ( o == null ){
+		    return false;
+		}
+		
+		if ( o == this ){
+		    return true;
+		}
+		
+		Stau that = (Stau) o;
+		
+		if ( !(o instanceof Stau) ){
+			  return false;
+		}
+		
+		if(this.Datum.equals(that.Datum) &&
+		this.Uhrzeit.equals(that.Uhrzeit) &&
+		this.Autobahn.equals(that.Autobahn) &&
+		this.Richtung_Start.equals(that.Richtung_Start) &&
+		this.Richtung_Ende.equals(that.Richtung_Ende) &&
+		this.Streckenabschnitt_Start.equals(that.Streckenabschnitt_Start) &&
+		this.Streckenabschnitt_Ende.equals(that.Streckenabschnitt_Ende )
+		&&	this.Art.equals(that.Art) 
+		&& this.Laenge.equals(that.Laenge)
+		){
+			///System.out.println("MATCH!!!!!!!!!!!!!!!!!!!!!");
+			return true;
+		}
+
+	return false;
+		
+	}
 	
-//	public void setEigenschaft(String Eigenschaft, String Wert){
-//		this.Eigenschaft=Eigenschaft;
-//		
-//	}
+
 }
