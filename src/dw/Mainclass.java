@@ -53,6 +53,7 @@ public class Mainclass {
 		
 		log("Anzahl der weggeworfenen unvollständigen Datensätze aus der CSV-Datei: "+badDataCounter);
 		log("Anzahl der eliminierten Duplikate aus beiden Dateien: "+duplicateCounter);
+		//log(mainList.get(0).Autobahn);
 		
 	
 	

@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.LineNumberReader;
 import java.util.ArrayList;
 
 import dw.objects.staus.Stau;
@@ -65,7 +66,7 @@ public void readCSV(String path){
 		}
 		
 		try {
-			BufferedReader br= new BufferedReader(new FileReader(path));
+			LineNumberReader br= new LineNumberReader(new FileReader(path));
 		
 			//Was used for debugging
 			
@@ -75,6 +76,8 @@ public void readCSV(String path){
 		
 		
 			while ((line = br.readLine()) != null){
+				
+				if (br.getLineNumber()>1){ //Ignoring the first line with field names
 				line=removeUmlaute(line);
 				String[] data = line.split(cvsSplitBy);
 				//System.out.println(data.length);
@@ -106,6 +109,7 @@ public void readCSV(String path){
 				//log("");
 				
 			}
+		}
 			br.close();
 		} catch (FileNotFoundException e) {
 			
