@@ -5,13 +5,27 @@ import dw.objects.staus.Stau;
 
 public class Sqlite3Parser  {
 	 
+	
+	String pathToDB=null;
 	public Sqlite3Parser() {
+	
+		pathToDB="import.db";
+	
+	}
+	
+	public Sqlite3Parser(String pathToDB) {
+		
+		this.pathToDB=pathToDB;
+	
+	}
+	
+	public void getDataFromDB(){
 	Connection c = null;
 	Statement stmt =null;
 	    try {
 	      Class.forName("org.sqlite.JDBC");
 	      // Note: /test.db is the test.db in the *current* working directory
-	      c = DriverManager.getConnection("jdbc:sqlite:import.db","","");
+	      c = DriverManager.getConnection("jdbc:sqlite:"+pathToDB,"","");
 	      c.setAutoCommit(false);
 	      System.out.println("Opened database successfully");
 	      

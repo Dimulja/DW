@@ -8,11 +8,16 @@ public class Stau {
 	Streckenabschnitt_Ende,Art,	Laenge, Beschreibung;
 
 	
-	
+	/**
+	 * @param String Datum,String Uhrzeit,String Autobahn,String Richtung_Start,String Richtung_Ende,
+			String Streckenabschnitt_Start,String Streckenabschnitt_Ende,String Art,
+			String Laenge
+			
+			Creates a new Object Stau
+	 */
 	public Stau(String Datum,String Uhrzeit,String Autobahn,String Richtung_Start,String Richtung_Ende,
 			String Streckenabschnitt_Start,String Streckenabschnitt_Ende,String Art,
 			String Laenge) {
-		// TODO Auto-generated constructor stub
 		
 		this.Datum=Datum;
 		this.Uhrzeit=Uhrzeit;
@@ -31,7 +36,11 @@ public class Stau {
 	public String getEigenschaft(String s){
 		return s;
 	}
-
+	/**
+	 * @param o Stau
+	 * Checks if two objects equals
+	 * @return true if Stau1.equals(Stau2)
+	 */
 	@Override
 	public boolean equals(Object o){
 		

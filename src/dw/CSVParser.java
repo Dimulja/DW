@@ -18,6 +18,7 @@ public class CSVParser {
 		
 	}
 	
+	//Removing Umlaute
 	public String removeUmlaute(String s){
 		
 		s=s.replace("Ã¶", "�");
@@ -66,6 +67,7 @@ public void readCSV(String path){
 		}
 		
 		try {
+			//LineNumberReader is aviable from Java 7
 			LineNumberReader br= new LineNumberReader(new FileReader(path));
 		
 			//Was used for debugging
@@ -88,7 +90,7 @@ public void readCSV(String path){
 						Stau tempStau = new  Stau(data[0],data[1],data[2],data[3],data[4],
 								data[5], data[6],data[7],data[8]);
 						if(!(mainList.contains(tempStau))){
-						
+						//Adding new object if there is no duplicate
 						mainList.add(tempStau);
 						
 						}else{
@@ -103,10 +105,7 @@ public void readCSV(String path){
 					}
 			
 					
-					//	System.out.println(data[0]);
-				
-//				}
-				//log("");
+
 				
 			}
 		}
