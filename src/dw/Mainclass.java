@@ -14,8 +14,11 @@ public class Mainclass {
 	//Error counters
 	public static int duplicateCounter=0;
 	public static int badDataCounter=0;
+	
 
-	//public static boolean defaultPath=false;
+	public static String csvPath ="import.csv" ;
+	public static String dbPath="import.db";
+	
 	
 	
 	//The MainList for the whole data
@@ -50,22 +53,24 @@ public class Mainclass {
 		
 	
 		
- if( !(args.length==2 && args[0].endsWith(".csv") && args[1].endsWith(".db"))  ){
-			log("Programm was terminated. Not enought Args add path for files");
-			log("Usage: java Mainclass import.csv import.db");
+ if( (args.length==2 && args[0].endsWith(".csv") && args[1].endsWith(".db"))  ){
+//			log("Programm was terminated. Not enought Args add path for files");
+//			log("Usage: java Mainclass import.csv import.db");
 			
-			System.exit(500);
+			csvPath=args[0];
+			dbPath=args[1];
+			
 		}
 		
 		// Read CSV and SQL
 		
 	
 		CSVParser csvp = new CSVParser(mainList);
-		csvp.readCSV(args[0]);
+		csvp.readCSV(csvPath);
 		log("MainLIST has after adding CSV "+mainList.size()+" Elemente");
 		//log("************");
 		//log(csvList);
-		Sqlite3Parser slqp = new Sqlite3Parser(args[1]);
+		Sqlite3Parser slqp = new Sqlite3Parser(dbPath);
 		slqp.getDataFromDB();
 		log("MainLIST has after adding SQL "+mainList.size()+" Elemente");
 		
