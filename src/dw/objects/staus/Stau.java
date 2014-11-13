@@ -17,7 +17,7 @@ public class Stau {
 	 */
 	public Stau(String Datum,String Uhrzeit,String Autobahn,String Richtung_Start,String Richtung_Ende,
 			String Streckenabschnitt_Start,String Streckenabschnitt_Ende,String Art,
-			String Laenge) {
+			String Laenge, String Beschreibung) {
 		
 		this.Datum=Datum;
 		this.Uhrzeit=Uhrzeit;
@@ -28,7 +28,7 @@ public class Stau {
 		this.Streckenabschnitt_Ende=Streckenabschnitt_Ende;
 		this.Art=Art;
 		this.Laenge=Laenge;
-	//	this.Beschreibung=Beschreibung;
+		this.Beschreibung=Beschreibung;
 		
 		
 	}
@@ -68,6 +68,7 @@ public class Stau {
 		this.Streckenabschnitt_Ende.equals(that.Streckenabschnitt_Ende )
 		&&	this.Art.equals(that.Art) 
 		&& this.Laenge.equals(that.Laenge)
+		&& this.Beschreibung.equals(that.Beschreibung)
 		){
 			///System.out.println("MATCH!!!!!!!!!!!!!!!!!!!!!");
 			return true;

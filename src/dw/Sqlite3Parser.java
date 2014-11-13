@@ -34,7 +34,7 @@ public class Sqlite3Parser  {
 	      
 	      stmt = c.createStatement();
 	      String sql="Select distinct z.datum, z.Uhrzeit, s.Autobahn, s.Richtung_Start, s.Richtung_Ende, s.Streckenabschnitt_Start, s.Streckenabschnitt_Ende, "
-	      		+ "d.Art, (Select case when d.Laenge_angegeben==1 then d.Laenge else \"NULL\" end ) as Laenge from Zeitpunkt z "
+	      		+ "d.Art, (Select case when d.Laenge_angegeben==1 then d.Laenge else \"NULL\" end ) as Laenge, d.Beschreibung from Zeitpunkt z "
 	      				+ "JOIN Stau s on s.Zeitpunkt=z.id JOIN Daten d on d.id =s.Daten";
 	      
 	      ResultSet rs = stmt.executeQuery(sql);
@@ -48,11 +48,11 @@ public class Sqlite3Parser  {
 	          String Streckenabschnitt_Ende = rs.getString("Streckenabschnitt_Ende");
 	          String Art = rs.getString("Art");
 	          String Laenge = rs.getString("Laenge");
-	          
+	          String Beschreibung = rs.getString("Beschreibung");
 	         
 	          
 	          Stau tempStau = new  Stau(Datum,Uhrzeit,Autobahn,Richtung_Start,Richtung_Ende,
-	        		  Streckenabschnitt_Start,	Streckenabschnitt_Ende,Art,Laenge);
+	        		  Streckenabschnitt_Start,	Streckenabschnitt_Ende,Art,Laenge, Beschreibung);
 
 
 	          if(!Mainclass.mainList.contains(tempStau)){
