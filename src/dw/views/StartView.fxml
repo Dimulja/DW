@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.FlowPane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dw.controllers.StartViewController">
+   <children>
+      <Button fx:id="ReadData" layoutX="37.0" layoutY="36.0" mnemonicParsing="false" onAction="#initImport" text="Start Import" />
+      <TextArea fx:id="logWindow" layoutX="25.0" layoutY="78.0" prefHeight="98.0" prefWidth="566.0" stylesheets="@../application.css" />
+      <Label layoutX="37.0" layoutY="14.0" prefHeight="17.0" prefWidth="283.0" text="Start import data from import.csv and import.db" />
+      <Button fx:id="exportToMysqlButton" layoutX="37.0" layoutY="191.0" mnemonicParsing="false" onAction="#exportToMysql" text="Start Export" />
+      <TextField fx:id="username" layoutX="139.0" layoutY="191.0" promptText="root" text="root" />
+      <TextField fx:id="password" layoutX="301.0" layoutY="191.0" text="password" />
+      <TextField fx:id="hostaddress" layoutX="139.0" layoutY="232.0" prefHeight="25.0" prefWidth="217.0" text="localhost" />
+      <TextField fx:id="port" layoutX="372.0" layoutY="232.0" prefHeight="25.0" prefWidth="78.0" text="3306" />
+      <TextField fx:id="dbname" layoutX="467.0" layoutY="191.0" text="dbname" />
+   </children>
+</Pane>

@@ -1,6 +1,7 @@
-package dw;
+package dw.models;
 import java.sql.*;
 
+import javafx.scene.control.TextArea;
 import dw.objects.staus.Stau;
 
 public class Sqlite3Parser  {
@@ -16,10 +17,11 @@ public class Sqlite3Parser  {
 	public Sqlite3Parser(String pathToDB) {
 		
 		this.pathToDB=pathToDB;
+		
 	
 	}
 	
-	public void getDataFromDB(){
+	public void getDataFromDB(TextArea logWindow){
 	Connection c = null;
 	Statement stmt =null;
 	    try {
@@ -27,7 +29,7 @@ public class Sqlite3Parser  {
 	      // Note: /test.db is the test.db in the *current* working directory
 	      c = DriverManager.getConnection("jdbc:sqlite:"+pathToDB,"","");
 	      c.setAutoCommit(false);
-	      System.out.println("Opened database successfully");
+	      logWindow.appendText("Opened database successfully\n");
 	      
 	      
 	      //Statement
@@ -81,6 +83,7 @@ public class Sqlite3Parser  {
 	  	// ignore
 	        }
 	    }
-	    System.out.println("Operation done successfully");
+	    //System.out.println("Operation done successfully");
+	    logWindow.appendText("Getting data from SQLite3 done successfully\n");
 	}
 }

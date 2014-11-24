@@ -1,4 +1,4 @@
-package dw;
+package dw.models;
 
 /**
  * @author Dmytro Shlyakhov
@@ -7,6 +7,8 @@ package dw;
 import java.util.ArrayList;
 
 
+
+import javafx.scene.control.TextArea;
 import dw.objects.staus.Stau;
 
 
@@ -48,7 +50,7 @@ public class Mainclass {
 
 	
 	
-	public static void main(String[] args) {
+	public  Mainclass(String[] args, TextArea logWindow) {
 		
 		
 	
@@ -67,15 +69,19 @@ public class Mainclass {
 	
 		CSVParser csvp = new CSVParser(mainList);
 		csvp.readCSV(csvPath);
-		log("MainLIST has after adding CSV "+mainList.size()+" Elemente");
+		//log("MainLIST has after adding CSV "+mainList.size()+" Elemente");
+		logWindow.appendText("MainLIST has after adding CSV "+mainList.size()+" Elemente\n");
 		//log("************");
 		//log(csvList);
 		Sqlite3Parser slqp = new Sqlite3Parser(dbPath);
-		slqp.getDataFromDB();
-		log("MainLIST has after adding SQL "+mainList.size()+" Elemente");
+		slqp.getDataFromDB(logWindow);
+		//log("MainLIST has after adding SQL "+mainList.size()+" Elemente");
+		logWindow.appendText("MainLIST has after adding SQL "+mainList.size()+" Elemente\n");
 		
-		log("Anzahl der weggeworfenen unvollständigen Datensätze aus der CSV-Datei: "+badDataCounter);
-		log("Anzahl der eliminierten Duplikate aus beiden Dateien: "+duplicateCounter);
+		//log("Anzahl der weggeworfenen unvollständigen Datensätze aus der CSV-Datei: "+badDataCounter);
+		//log("Anzahl der eliminierten Duplikate aus beiden Dateien: "+duplicateCounter);
+		logWindow.appendText("Anzahl der weggeworfenen unvollständigen Datensätze aus der CSV-Datei: "+badDataCounter+"\n");
+		logWindow.appendText("Anzahl der eliminierten Duplikate aus beiden Dateien: "+duplicateCounter+"\n");
 
 		
 	
