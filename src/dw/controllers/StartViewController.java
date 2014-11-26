@@ -53,7 +53,7 @@ public class StartViewController implements Initializable {
 	private TextField dbname;
 	
 	
-	
+	@FXML
 	public void initImport(ActionEvent event){
 		if(!initalized){
 		Mainclass m = new Mainclass(args, logWindow);
@@ -63,9 +63,10 @@ public class StartViewController implements Initializable {
 		//logWindow.setFocusTraversable(false);
 		}
 	}
-	
+	@FXML
 	public void exportToMysql(ActionEvent event){
-		MySQLConnector mysqlconn = new MySQLConnector(hostaddress.getText(), username.getText(), password.getText(), dbname.getText(), port.getText());
+		MySQLConnector mysqlconn = new MySQLConnector(hostaddress.getText(), username.getText(),
+				password.getText(), dbname.getText(), port.getText(), logWindow);
 		
 	}
 	

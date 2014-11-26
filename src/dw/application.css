@@ -1,5 +1,11 @@
 }
-logWindow:focus { 
+
+.root {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #cbd0d7 0%, white 100%);
+}
+
+
+#logWindow:focus { 
     outline: none !important;
     border-color: #719ECE;
     box-shadow: 0 0 10px #719ECE;
