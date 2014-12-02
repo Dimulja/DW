@@ -1,8 +1,10 @@
 package dw.controllers;
 
 import java.net.URL;
+import java.sql.Connection;
 import java.util.ResourceBundle;
 
+import dw.models.InsertData;
 import dw.models.Mainclass;
 import dw.models.MySQLConnector;
 import javafx.event.ActionEvent;
@@ -67,9 +69,13 @@ public class StartViewController implements Initializable {
 	public void exportToMysql(ActionEvent event){
 		MySQLConnector mysqlconn = new MySQLConnector(hostaddress.getText(), username.getText(),
 				password.getText(), dbname.getText(), port.getText(), logWindow);
+		//Init DB
+		mysqlconn.initMySqlDb(mysqlconn.getConn());
+		InsertData insd = new InsertData(mysqlconn.getConn(), logWindow);
+		insd.insertMainList();
 		
 	}
 	
-	
+
 
 }

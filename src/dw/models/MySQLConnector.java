@@ -13,6 +13,8 @@ import javafx.scene.control.TextArea;
 public class MySQLConnector {
 	TextArea logWindow;
 	String  dbname;
+	String host, username, password, port; 
+	 Connection connection;
 
 	
 	
@@ -25,38 +27,15 @@ public class MySQLConnector {
 			}else{
 				this.dbname="dw";
 			}
+		this.host=host;
+		this.username=username;
+		this.password=password;
+		this.port=port;
+		connection=null;
+		
+		
 		logWindow.appendText("Using Schemata: "+this.dbname+"\n");
-		try
-        {
-            Class.forName("com.mysql.jdbc.Driver");
-        }
-        catch (ClassNotFoundException e) {
-            log("MySQL JDBC Driver not found !!");
-            return;
-        }
-        log("MySQL JDBC Driver Registered!");
-        Connection connection = null;
-        try {
-            connection = DriverManager.getConnection("jdbc:mysql://"+host+":"+port+"/", username, password);
-            //System.out.println("MySQL Connection to database established!");
-            log("MySQL Connection to database established!");
-            initMySqlDb(connection);
-            
- 
-        } catch (SQLException e) {
-            log("Connection Failed! Check output console");
-            logWindow.appendText(e.getMessage()+"\n");
-            return;
-        } finally {
-            try
-            {
-                if(connection != null)
-                    connection.close();
-                logWindow.appendText("Connection closed !!\n");
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
+		createConn();
 	}
 	
 	public void initMySqlDb(Connection conn){
@@ -66,7 +45,7 @@ public class MySQLConnector {
 		String sql[]={"CREATE SCHEMA IF NOT EXISTS `"+dbname+"` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;",
 				"CREATE TABLE IF NOT EXISTS `"+dbname+"`.`Zeit` ("
 				+ " `idZeit` INT NOT NULL AUTO_INCREMENT,"
-				+ "  `zeitpunkt` TIMESTAMP NULL,"
+				+ "  `zeitpunkt` TIME NULL,"
 				+ "  `tag` INT NULL,"
 				+ "  `monat` INT NULL,"
 				+ " `jahr` INT NULL,"
@@ -79,19 +58,21 @@ public class MySQLConnector {
 //				+ "-- Table `dw`.`Ort`"
 //				+ "-- -----------------------------------------------------"
 				 "CREATE TABLE IF NOT EXISTS `"+dbname+"`.`Ort` ("
-				+ "  `abschnitt` VARCHAR(45) NULL,"
-				+ "  `richtung` VARCHAR(45) NULL,"
-				+ "  `autobahn` VARCHAR(45) NULL,"
-				+ "  `idOrt` INT NOT NULL AUTO_INCREMENT,"
-				+ "  PRIMARY KEY (`idOrt`))"
-				+ "ENGINE = InnoDB;",
+				 +"`idOrt` INT NOT NULL AUTO_INCREMENT,"
+				 +"`autobahn` VARCHAR(45) NULL,"
+				 +"`Richtung_Start` VARCHAR(45) NULL,"
+				 +" `Richtung_Ende` VARCHAR(45) NULL,"
+				 +"`Streckenabschnitt_Start` VARCHAR(45) NULL,"
+				 +" `Streckenabschnitt_Ende` VARCHAR(45) NULL,"
+				 +" PRIMARY KEY (`idOrt`))"
+				+"ENGINE = InnoDB;",
 //				+ "-- -----------------------------------------------------"
 //				+ "-- Table `dw`.`Stau`"
 //				+ "-- -----------------------------------------------------"
 				 "CREATE TABLE IF NOT EXISTS `"+dbname+"`.`Stau` ("
 				+ "  `laenge` INT NULL,"
 				+ "  `art` VARCHAR(45) NULL,"
-				+ "  `beschreibung` VARCHAR(45) NULL,"
+				+ "  `beschreibung` VARCHAR(255) NULL,"
 				+ "  `Zeit_idZeit` INT NOT NULL,"
 				+ "  `Ort_idOrt` INT NOT NULL,"
 				+ "  PRIMARY KEY (`Zeit_idZeit`, `Ort_idOrt`),"
@@ -116,7 +97,7 @@ public class MySQLConnector {
 		log("MySQL command " +i+" executed");
 		i++;
 		}
-		
+		log("My SQL DB '"+dbname+"' Initiated");
 		try{
 	         if(stmt!=null)
 	            stmt.close();
@@ -134,6 +115,59 @@ public class MySQLConnector {
 		}
 		
 	}
+	
+	public void createConn(){
+		
+		try
+        {
+            Class.forName("com.mysql.jdbc.Driver");
+        }
+        catch (ClassNotFoundException e) {
+            log("MySQL JDBC Driver not found !!");
+            //return connection;
+        }
+        log("MySQL JDBC Driver Registered!");
+        
+        try {
+        	//log("IN TRY");
+            connection = DriverManager.getConnection("jdbc:mysql://"+host+":"+port+"/", username, password);
+            //System.out.println("MySQL Connection to database established!");
+            
+            log("MySQL Connection to database established!");
+            //initMySqlDb(connection);
+           // return connection;
+            
+        } catch (SQLException e) {
+            log("Connection Failed! Check output console");
+            logWindow.appendText(e.getMessage()+"\n");
+           // return connection;
+        } 
+		
+		
+	}
+	
+	public boolean closeConnection(){
+		 
+	            try
+	            {
+	                if(connection != null)
+	                    connection.close();
+	                logWindow.appendText("Connection closed !!\n");
+	                return true;
+	            } catch (SQLException e) {
+	                e.printStackTrace();
+	                log(e.getMessage());
+	                
+	            }
+	            return false;
+		
+	}
+	
+	
+	public Connection getConn(){
+		return connection;
+	}
+	
 	/**
 	 * Simple method for printing to logWindow
 	 * @param s String
