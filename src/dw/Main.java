@@ -20,7 +20,7 @@ public class Main extends Application {
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 		//	root.getChildren().add(b);
-			primaryStage.setTitle("Data Warehous WS 14/15 ver. 0.2.1");
+			primaryStage.setTitle("Data Warehous WS 14/15 ver. 0.2.1.1");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();

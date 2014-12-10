@@ -28,28 +28,49 @@ public class InsertData {
  Date date;
  int DateID, OrtID;
  ResultSet rs;
+ String  dbname;
+ private boolean exported=false;
 
 	
-public  InsertData(Connection connection, TextArea logWindow){
+public boolean isExported() {
+	return exported;
+}
+
+
+public void setExported(boolean exported) {
+	this.exported = exported;
+}
+
+
+public  InsertData(Connection connection, TextArea logWindow, String dbname){
 		this.connection=connection;
 		this.logWindow=logWindow;
+		this.dbname=dbname;
 	}
 	
 
 public void insertMainList() {
 	try {
-		 String queryDate ="INSERT INTO `dbname`.`zeit` ( `zeitpunkt`, `tag`, `monat`, `jahr`,`kw`) "
-		 		+ "VALUES (?,?,?,?,?); ";
-		String queryOrt ="INSERT INTO `dbname`.`ort`"
-		+ "(`autobahn`,`Richtung_Start`,`Richtung_Ende`,`Streckenabschnitt_Start`,`Streckenabschnitt_Ende`)"
-		+ "VALUES (?,?,?,?,?)";
+		 String queryDate ="INSERT IGNORE INTO `"+dbname+"`.`zeit` ( `zeitpunkt`, `tag`, `monat`, `jahr`,`kw`, `idZeit`) "
+		 		+ "VALUES (?,?,?,?,?,?); ";
+		String queryOrt ="INSERT IGNORE INTO `"+dbname+"`.`ort`"
+		+ "(`autobahn`,`Richtung_Start`,`Richtung_Ende`,`Streckenabschnitt_Start`,`Streckenabschnitt_Ende`, `idOrt`)"
+		+ "VALUES (?,?,?,?,?,?)";
 		
-		String queryStau ="INSERT INTO `dbname`.`stau` (`laenge`, `art`, `beschreibung`, `Zeit_idZeit`, `Ort_idOrt`)"
+		String queryStau ="INSERT IGNORE INTO `"+dbname+"`.`stau` (`laenge`, `art`, `beschreibung`, `Zeit_idZeit`, `Ort_idOrt`)"
 				+ "VALUES (?,?,?,?,?);";
 		PreparedStatement preparedStmt;
 		//Statement stmt = connection.createStatement();
-		
+		log("Inserting DATA(if needed) into MySQL DB");
 	for( Stau st : Mainclass.mainList){
+		//primary keys for dimensions
+		
+		int zeitId=st.getZeitHash() ;
+		int ortId=st.getOrtHash() ;
+		//log("ZeitID="+zeitId);
+		//log("ortId="+ortId);
+		
+		
 		//DAte table
 		preparedStmt = connection.prepareStatement(queryDate, Statement.RETURN_GENERATED_KEYS);
 		preparedStmt.setString(1, st.Uhrzeit);
@@ -71,17 +92,19 @@ public void insertMainList() {
 		preparedStmt.setInt(3, Integer.parseInt(month));
 		preparedStmt.setInt(4, Integer.parseInt(year));
 		preparedStmt.setInt(5, Integer.parseInt(week));
+		preparedStmt.setInt(6, zeitId);
+		
 		preparedStmt.executeUpdate();
 		rs = preparedStmt.getGeneratedKeys();
 		
 		if(rs.next()){
 		//log("IN IF!!!!!!!!!!!!!");
 			DateID= rs.getInt(1);
-			log(DateID+"");
+			//log(DateID+"");
 		}
 		rs.close();
 		preparedStmt.close();
-		log("First Insert(Zeit) OK");
+		//log("First Insert(Zeit) OK");
 		//Ort Table
 		preparedStmt = connection.prepareStatement(queryOrt, Statement.RETURN_GENERATED_KEYS);
 		preparedStmt.setString(1, st.Autobahn);
@@ -89,13 +112,14 @@ public void insertMainList() {
 		preparedStmt.setString(3, st.Richtung_Ende);
 		preparedStmt.setString(4, st.Streckenabschnitt_Start);
 		preparedStmt.setString(5, st.Streckenabschnitt_Ende);
+		preparedStmt.setInt(6, ortId);
 		
 		preparedStmt.executeUpdate();
-		
+		//log("First Insert(ORT) OK");
 		rs = preparedStmt.getGeneratedKeys();
-		if(rs.next()){
-			OrtID= rs.getInt(1);
-		}
+//		if(rs.next()){
+//			OrtID= rs.getInt(1);
+//		}
 		rs.close();
 		preparedStmt.close();
 		
@@ -109,18 +133,21 @@ public void insertMainList() {
 		}
 		preparedStmt.setString(2, st.Art);
 		preparedStmt.setString(3, st.Beschreibung);
-		preparedStmt.setInt(4, DateID);
-		preparedStmt.setInt(5, OrtID);
-		log("DateID="+DateID+" OrtID="+OrtID);
+		preparedStmt.setInt(4, zeitId);
+		preparedStmt.setInt(5, ortId);
+		//log("DateID="+DateID+" OrtID="+OrtID);
 		preparedStmt.executeUpdate();
-		
+		//log("First Insert(Zeit) OK");
+		preparedStmt.close();
 	}
 	log("Data from MainLIst was added Successfuly");
+	setExported(true);
 	
 	} catch (SQLException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 		log(e.getMessage());
+		setExported(false);
 	}
 }
  public  void log (String s){

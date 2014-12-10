@@ -33,8 +33,16 @@ public class Stau {
 		
 	}
 	
-	public String getEigenschaft(String s){
-		return s;
+	public int getOrtHash (){
+		String s=Autobahn +Richtung_Start +Richtung_Ende+ Streckenabschnitt_Start +
+		Streckenabschnitt_Ende;	
+		return (s.hashCode() & 0x7FFFFFFF) % Integer.MAX_VALUE;
+	}
+	
+	
+	public int getZeitHash (){
+		String s=Datum+Uhrzeit;	
+		return (s.hashCode() & 0x7FFFFFFF) % Integer.MAX_VALUE;
 	}
 	/**
 	 * @param o Stau

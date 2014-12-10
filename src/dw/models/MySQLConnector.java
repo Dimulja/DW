@@ -15,6 +15,7 @@ public class MySQLConnector {
 	String  dbname;
 	String host, username, password, port; 
 	 Connection connection;
+	 boolean created;
 
 	
 	
@@ -35,7 +36,8 @@ public class MySQLConnector {
 		
 		
 		logWindow.appendText("Using Schemata: "+this.dbname+"\n");
-		createConn();
+		created=createConn();
+	
 	}
 	
 	public void initMySqlDb(Connection conn){
@@ -116,7 +118,7 @@ public class MySQLConnector {
 		
 	}
 	
-	public void createConn(){
+	public boolean createConn(){
 		
 		try
         {
@@ -125,6 +127,7 @@ public class MySQLConnector {
         catch (ClassNotFoundException e) {
             log("MySQL JDBC Driver not found !!");
             //return connection;
+            return false;
         }
         log("MySQL JDBC Driver Registered!");
         
@@ -134,13 +137,15 @@ public class MySQLConnector {
             //System.out.println("MySQL Connection to database established!");
             
             log("MySQL Connection to database established!");
+            
             //initMySqlDb(connection);
-           // return connection;
+            return true;
             
         } catch (SQLException e) {
             log("Connection Failed! Check output console");
             logWindow.appendText(e.getMessage()+"\n");
            // return connection;
+            return false;
         } 
 		
 		
@@ -175,6 +180,10 @@ public class MySQLConnector {
 	 */
 	public void log(String s){
 		logWindow.appendText(s+"\n");
+	}
+	
+	public boolean getState(){
+		return created;
 	}
 	
 }
