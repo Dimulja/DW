@@ -27,7 +27,8 @@ public class StartViewController implements Initializable {
 		logWindow.setEditable(false);
 		exportToMysqlButton.setDisable(true);
 		executeButton.setDisable(true);
-		viewTextArea=logWindow;
+		viewTextArea.setWrapText(true);
+		viewTextArea.setEditable(false);
 		
 		 
 	}
@@ -150,12 +151,13 @@ public class StartViewController implements Initializable {
 		preparedStmt=connection.prepareStatement(dropProcedureQuery);
 		preparedStmt.executeUpdate();
 		preparedStmt=null;
-				
+		
+		viewLog("View "+viewName+" has been created");
 		
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			//e.printStackTrace();
-			System.out.println(e.getMessage());
+			viewLog(e.getMessage());
 		}
 		
 		String createRefresh =  
@@ -188,13 +190,14 @@ public class StartViewController implements Initializable {
 			//	+ "DELIMITER ;";
 		
 		
-		viewLog(createRefresh);
+		//viewLog(createRefresh);
 		try {
 			preparedStmt=connection.prepareStatement(createRefresh);
 			preparedStmt.executeUpdate();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//e.printStackTrace();
+			viewLog(e.getMessage());
 		}
 		
 /**
@@ -293,9 +296,10 @@ public class StartViewController implements Initializable {
 		String drop =" DROP TABLE "+viewDeleteName.getText()+"_view;";
 			preparedStmt=connection.prepareStatement(drop);
 			preparedStmt.executeUpdate();
+			viewLog("View "+viewDeleteName.getText()+" has been deleted");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.getMessage();
+			//e.getMessage();
 			viewLog(e.getMessage());
 		}
     }
@@ -305,15 +309,23 @@ public class StartViewController implements Initializable {
     	try {
 			PreparedStatement preparedStmt =connection.prepareStatement("CALL refresh()");
 			preparedStmt.executeUpdate();
+			viewLog("Views have been refreshed");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//e.printStackTrace();
+			viewLog(e.getMessage());
 		}
     }
 
     @FXML
     void viewConnectDo(ActionEvent event) {
-
+    
+    MySQLConnector connector = new MySQLConnector(hostaddress.getText(), username.getText(),
+			password.getText(), dbname.getText(), port.getText(), viewTextArea);
+     if(connector.getState()){
+    	connection= connector.getConn();
+     }
+     
     }
 	
 	

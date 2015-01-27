@@ -2,8 +2,10 @@ package dw.models;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 
 
 import javafx.scene.control.TextArea;
@@ -137,6 +139,9 @@ public class MySQLConnector {
             //System.out.println("MySQL Connection to database established!");
             
             log("MySQL Connection to database established!");
+            String useDbName = "USE `"+dbname+"` ;";
+            PreparedStatement preparedstmt = connection.prepareStatement(useDbName);
+            preparedstmt.executeUpdate();
             
             //initMySqlDb(connection);
             return true;
