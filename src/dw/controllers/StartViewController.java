@@ -2,6 +2,8 @@ package dw.controllers;
 
 import java.net.URL;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 
 import dw.models.InsertData;
@@ -25,6 +27,7 @@ public class StartViewController implements Initializable {
 		logWindow.setEditable(false);
 		exportToMysqlButton.setDisable(true);
 		executeButton.setDisable(true);
+		viewTextArea=logWindow;
 		
 		 
 	}
@@ -32,12 +35,40 @@ public class StartViewController implements Initializable {
 	
 	//Define all vars needed
 	String [] args = {"just some", "dummy strings"};
+	String [] tables ={"ORT", "STAU", "ZEIT"};
+	//trigger_event: { INSERT | UPDATE | DELETE }
+	String [] triggerEvents ={"INSERT", "UPDATE", "DELETE"};
 	private boolean initalized=false;
 	//private boolean exported=false;
 	
 	MySQLOptimizer opt;
 	
 	Connection connection;
+	
+	@FXML
+    private Button viewDeleteButtonDo;
+	
+	@FXML
+	private Button viewConnectButton;
+	
+	@FXML
+	private Button  viewUpdateButton;
+	
+	@FXML
+	private TextArea viewTextArea;
+
+    @FXML
+    private Button viewExecuteButton;
+	@FXML
+	private TextField viewCreateQuery;
+	
+	@FXML
+	private TextField viewCreateName;
+	@FXML
+	private TextField viewDeleteName;
+	
+	@FXML
+	private ResourceBundle resources;
 	
 	@FXML
 	private Button ReadData;
@@ -77,6 +108,132 @@ public class StartViewController implements Initializable {
 // TODO to imlement table view	
 //	@FXML
 //	private TableView<Stau> resultTable;
+	
+	
+	@FXML
+	void viewExecute(ActionEvent event) {
+		//TODO  Create oder delete view.
+		
+		
+		PreparedStatement preparedStmt=null;
+		String viewName = viewCreateName.getText();
+		String query = viewCreateQuery.getText();
+		String dbQuery = "CREATE TABLE "+viewName+"_view"+" AS (" +query+ ")";
+		try {
+			preparedStmt=connection.prepareStatement(dbQuery);
+			preparedStmt.executeUpdate();
+			// Create Trigger
+			
+			//Create list of tables(views)
+		String addToTableList = "CREATE TABLE IF NOT EXISTS `mv_tableslist` ("
+				+ "`tablename` varchar(255) NOT NULL,"
+				+ "`statement` text,"
+				+ "PRIMARY KEY (`tablename`),"
+				+ "UNIQUE KEY `tablename_UNIQUE` (`tablename`)"
+				+ ") ENGINE=InnoDB DEFAULT CHARSET=utf8;";
+		preparedStmt=connection.prepareStatement(addToTableList);
+		preparedStmt.executeUpdate();
+		
+		
+		//Inserting new table to the table list
+		String insertTheViewEntry = "INSERT INTO `mv_tableslist`"
+				+ "(`tablename`, `statement`) VALUES( ?, ?);";
+		preparedStmt=connection.prepareStatement(insertTheViewEntry);
+		preparedStmt.setString(1, viewName+"_view");	
+		preparedStmt.setString(2, query);	
+		
+		preparedStmt.executeUpdate();
+		
+		//Create stored Procedure
+		
+		String dropProcedureQuery = "DROP PROCEDURE IF EXISTS refresh";
+		preparedStmt=connection.prepareStatement(dropProcedureQuery);
+		preparedStmt.executeUpdate();
+		preparedStmt=null;
+				
+		
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+			System.out.println(e.getMessage());
+		}
+		
+		String createRefresh =  
+				//"USE `"+dbname.getText()+"`$$ " +
+				 "CREATE PROCEDURE `refresh`() "
+				+ "BEGIN "
+				+ "DECLARE v_finished INTEGER DEFAULT 0; "
+				+ "DECLARE tableName text DEFAULT \"\"; "
+				+ "DECLARE tableQuery text DEFAULT \"\"; "
+				+ "DEClARE table_cursor CURSOR FOR (SELECT * FROM mv_tableslist); "
+				+ "DECLARE CONTINUE HANDLER "
+				+ "FOR NOT FOUND SET v_finished = 1; "
+				+ "OPEN table_cursor; "
+				+ "read_loop:LOOP "
+				+ "FETCH table_cursor INTO tableName, tableQuery; "
+				+ "IF v_finished = 1 THEN "
+				+ "LEAVE read_loop ;"
+				+ "END IF; "
+				+ "SET @SQL = CONCAT('DROP TABLE IF EXISTS ', CONCAT(\"\",tableName)); "
+				+ "PREPARE stmt FROM @SQL; "
+				+ "EXECUTE stmt; "
+				+ "DEALLOCATE PREPARE stmt;"
+				+ "SET @SQL = CONCAT('CREATE TABLE ',CONCAT(\"\",tableName),' AS ',CONCAT(\"\",tableQuery)); "
+				+ "PREPARE stmt FROM @SQL; "
+				+ "EXECUTE stmt; "
+				+ "DEALLOCATE PREPARE stmt; "
+				+ "END LOOP; "
+				+ "CLOSE table_cursor; "
+				+ "END ";
+			//	+ "DELIMITER ;";
+		
+		
+		viewLog(createRefresh);
+		try {
+			preparedStmt=connection.prepareStatement(createRefresh);
+			preparedStmt.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+/**
+ *  Unfortunatly triggers can't call procedures :(((
+ */
+		
+		
+//		for (String triggerOption: triggerEvents) {
+//			//Create triggers
+//			for (String tableName : tables) {
+//				String dropTrigger = "DROP TRIGGER IF EXISTS " + tableName
+//						+ "_AFTER_"+triggerOption+" ; ";
+//				String createTrigger = "CREATE TRIGGER `" + tableName
+//						+ "_AFTER_"+triggerOption+"` " + "AFTER "+triggerOption+" ON `" + tableName
+//						+ "` FOR EACH ROW " + "BEGIN " + "CALL refresh(); "
+//						+ "END ";
+//				//System.out.println(createTrigger);
+//				try {
+//					preparedStmt = connection.prepareStatement(dropTrigger);
+//					preparedStmt.executeUpdate();
+
+//					preparedStmt = connection.prepareStatement(createTrigger);
+//					preparedStmt.executeUpdate();
+//				} catch (SQLException e) {
+//					// TODO Auto-generated catch block
+//					e.printStackTrace();
+//				}
+//
+//			}//end for Table name
+//		} // End for Trigger Option
+		
+		
+		
+		
+			
+			
+			
+	
+	  }
 	
 	@FXML
 	public void initImport(ActionEvent event){
@@ -125,8 +282,49 @@ public class StartViewController implements Initializable {
 		opt.printFull(selectField.getText(), fromField.getText(), whereField.getText());
 	}
 	
+	
+    @FXML
+    void viewDeleteButtonDo(ActionEvent event) {
+    	
+    	String deleteString ="DELETE FROM `mv_tableslist` WHERE tablename= '"+ viewDeleteName.getText()+"_view';";
+    	try {
+			PreparedStatement preparedStmt=connection.prepareStatement(deleteString);
+			preparedStmt.executeUpdate();
+		String drop =" DROP TABLE "+viewDeleteName.getText()+"_view;";
+			preparedStmt=connection.prepareStatement(drop);
+			preparedStmt.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.getMessage();
+			viewLog(e.getMessage());
+		}
+    }
+
+    @FXML
+    void viewUpdateDo(ActionEvent event) {
+    	try {
+			PreparedStatement preparedStmt =connection.prepareStatement("CALL refresh()");
+			preparedStmt.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    }
+
+    @FXML
+    void viewConnectDo(ActionEvent event) {
+
+    }
+	
+	
+	
+	
+	
 	public  void log (String s){
 		 logWindow.appendText(s+"\n");
 	 }
 
+	public void viewLog(String s){
+		viewTextArea.appendText(s+"\n");
+	}
 }

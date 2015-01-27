@@ -8,28 +8,58 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.FlowPane?>
 
-<Pane maxHeight="1000.0" maxWidth="2000.0" minHeight="300.0" minWidth="500.0" prefHeight="652.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dw.controllers.StartViewController">
-   <children>
-      <Button fx:id="ReadData" layoutX="35.0" layoutY="66.0" mnemonicParsing="false" onAction="#initImport" text="Start Import" />
-      <TextArea fx:id="logWindow" layoutX="129.0" layoutY="66.0" prefHeight="110.0" prefWidth="671.0" stylesheets="@../application.css" />
-      <Label layoutX="37.0" layoutY="14.0" prefHeight="17.0" prefWidth="283.0" text="Start import data from import.csv and import.db" />
-      <Button fx:id="exportToMysqlButton" layoutX="36.0" layoutY="151.0" mnemonicParsing="false" onAction="#exportToMysql" text="Start Export" />
-      <TextField fx:id="username" layoutX="35.0" layoutY="191.0" promptText="root" text="root" />
-      <TextField fx:id="password" layoutX="194.0" layoutY="191.0" text="EnterPassword" />
-      <TextField fx:id="hostaddress" layoutX="521.0" layoutY="191.0" prefHeight="25.0" prefWidth="137.0" text="localhost" />
-      <TextField fx:id="port" layoutX="674.0" layoutY="191.0" prefHeight="25.0" prefWidth="78.0" text="3306" />
-      <TextField fx:id="dbname" layoutX="356.0" layoutY="191.0" text="dbname" />
-      <Label layoutX="46.0" layoutY="233.0" text="SELECT" />
-      <TextField fx:id="selectField" layoutX="101.0" layoutY="229.0" prefHeight="25.0" prefWidth="566.0" />
-      <TextField fx:id="fromField" layoutX="101.0" layoutY="271.0" prefHeight="25.0" prefWidth="566.0" />
-      <TextField fx:id="whereField" layoutX="101.0" layoutY="313.0" prefHeight="25.0" prefWidth="566.0" />
-      <Label layoutX="46.0" layoutY="275.0" text="FROM" />
-      <Label layoutX="46.0" layoutY="317.0" text="WHERE" />
-      <Button fx:id="executeButton" layoutX="693.0" layoutY="313.0" mnemonicParsing="false" onAction="#executeSQL" text="EXECUTE" />
-<!--       <TableView fx:id="resultTable" layoutX="35.0" layoutY="375.0" prefHeight="200.0" prefWidth="770.0">
-        <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-        </columns>
-      </TableView> -->
-   </children>
-</Pane>
+<TabPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dw.controllers.StartViewController">
+   <tabs>
+      <Tab text="StarJoin">
+         <content>
+            <Pane maxHeight="1000.0" maxWidth="2000.0" minHeight="300.0" minWidth="500.0" prefHeight="652.0" prefWidth="889.0">
+               <children>
+                  <Button fx:id="ReadData" layoutX="35.0" layoutY="66.0" mnemonicParsing="false" onAction="#initImport" text="Start Import" />
+                  <TextArea fx:id="logWindow" layoutX="129.0" layoutY="66.0" prefHeight="110.0" prefWidth="671.0" stylesheets="@../application.css" />
+                  <Label layoutX="37.0" layoutY="14.0" prefHeight="17.0" prefWidth="283.0" text="Start import data from import.csv and import.db" />
+                  <Button fx:id="exportToMysqlButton" layoutX="36.0" layoutY="151.0" mnemonicParsing="false" onAction="#exportToMysql" text="Start Export" />
+                  <TextField fx:id="username" layoutX="35.0" layoutY="191.0" promptText="root" text="root" />
+                  <TextField fx:id="password" layoutX="194.0" layoutY="191.0" text="pass" />
+                  <TextField fx:id="hostaddress" layoutX="521.0" layoutY="191.0" prefHeight="25.0" prefWidth="137.0" text="localhost" />
+                  <TextField fx:id="port" layoutX="674.0" layoutY="191.0" prefHeight="25.0" prefWidth="78.0" text="3306" />
+                  <TextField fx:id="dbname" layoutX="356.0" layoutY="191.0" text="dbname" />
+                  <Label layoutX="46.0" layoutY="233.0" text="SELECT" />
+                  <TextField fx:id="selectField" layoutX="101.0" layoutY="229.0" prefHeight="25.0" prefWidth="566.0" />
+                  <TextField fx:id="fromField" layoutX="101.0" layoutY="271.0" prefHeight="25.0" prefWidth="566.0" />
+                  <TextField fx:id="whereField" layoutX="101.0" layoutY="313.0" prefHeight="25.0" prefWidth="566.0" />
+                  <Label layoutX="46.0" layoutY="275.0" text="FROM" />
+                  <Label layoutX="46.0" layoutY="317.0" text="WHERE" />
+                  <Button fx:id="executeButton" layoutX="693.0" layoutY="313.0" mnemonicParsing="false" onAction="#executeSQL" text="EXECUTE" />
+            <!--       <TableView fx:id="resultTable" layoutX="35.0" layoutY="375.0" prefHeight="200.0" prefWidth="770.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                    </columns>
+                  </TableView> -->
+               </children>
+            </Pane>
+         </content>
+      </Tab>
+      <Tab text="MatView">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="viewCreateQuery" layoutX="330.0" layoutY="237.0" prefHeight="25.0" prefWidth="473.0" />
+                  <TextField fx:id="viewDeleteName" layoutX="175.0" layoutY="279.0" prefHeight="25.0" prefWidth="467.0" />
+                  <Label layoutX="14.0" layoutY="241.0" prefHeight="17.0" prefWidth="161.0" text="CREATE MATERIALIZED VIEW" />
+                  <Label layoutX="14.0" layoutY="283.0" prefHeight="17.0" prefWidth="154.0" text="DELETE MATERIALIZED VIEW" />
+                  <TextField fx:id="viewCreateName" layoutX="175.0" layoutY="237.0" prefHeight="25.0" prefWidth="120.0" />
+                  <Label layoutX="306.0" layoutY="241.0" prefHeight="17.0" prefWidth="31.0" text="AS (" />
+                  <Label layoutX="306.0" layoutY="211.0" prefHeight="17.0" prefWidth="129.0" text="Query" />
+                  <Button fx:id="viewExecuteButton" layoutX="73.0" layoutY="347.0" mnemonicParsing="false" onAction="#viewExecute" text="Create" />
+                  <Label layoutX="811.0" layoutY="241.0" text=");" />
+                  <Button fx:id="viewDeleteButton" layoutX="142.0" layoutY="347.0" mnemonicParsing="false" onAction="#viewDeleteButtonDo" text="Delete" />
+                  <TextArea fx:id="viewTextArea" layoutX="160.0" layoutY="85.0" prefHeight="120.0" prefWidth="610.0" />
+                  <Button fx:id="viewUpdateButton" layoutX="28.0" layoutY="167.0" mnemonicParsing="false" onAction="#viewUpdateDo" text="Update all Views" />
+                  <Button fx:id="viewConnectButton" layoutX="29.0" layoutY="96.0" mnemonicParsing="false" onAction="#viewConnectDo" prefHeight="25.0" prefWidth="102.0" text="Connect to DB" />
+                  <Label layoutX="19.0" layoutY="56.0" prefHeight="17.0" prefWidth="210.0" text="Please enter Parameters in StarJoin Tab" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+   </tabs>
+</TabPane>
